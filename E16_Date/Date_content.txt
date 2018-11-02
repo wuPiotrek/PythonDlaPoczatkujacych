@@ -1,0 +1,19 @@
+Python & IDLE - LAB
+Sekcja 3, wyk³ad 16
+Dobrze by by³o abyœ w dalszej czêœci kursu samodzielnie próbowa³ wykonywaæ ró¿ne æwiczenia. Dlatego warto mieæ zainstalowanego Pythona i IDLE.
+
+1. Zainstaluj Python - wersja 3.x
+
+2. Uruchom edytor IDLE
+
+3. Napisz sktypt, który:
+
+wyœwietli napis "Today is" - <tutaj nazwa dnia tygodnia dla dzisiejszego dnia>
+wyœwietli napis "have a nice day!"
+wyœwietli napis "press enter to continue"
+po naciœniêciu enter siê zakoñczy
+4. Zapisz i sprawdŸ dzia³anie skryptu w IDLE
+
+5. Uruchom skrypt z linii komend cmd
+
+6. Uruchom skrypt klikaj¹c go myszk¹

@@ -1,4 +1,6 @@
-#W tym zadaniu liczymy pole kola
+'''
+W tym zadaniu liczymy pole kola
+'''
 wartoscPI = 3.14
 promienOkregu = 5
 poleKola = wartoscPI * (promienOkregu ** 2)

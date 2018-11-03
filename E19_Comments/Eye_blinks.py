@@ -16,7 +16,7 @@ years = 50
 
 blinksPerXYears = blinksPerMinute * minInHour * hoursInDay * daysInYear * years
 
-print("W ciągu " + str(years) + " lat mrugniemy: " + str(blinksPerXYears) + " razy.")
+print("W ciągu ", years, " lat mrugniemy: ", blinksPerXYears, " razy.")
 
 ##########################################
 
@@ -28,3 +28,4 @@ vacation = 26
 yearsOfWOrk = 40
 #result
 print((daysOfWorkPerMonth * monthsInYear - vacation)*yearsOfWOrk)
+input()

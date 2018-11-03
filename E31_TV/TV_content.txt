@@ -1,0 +1,20 @@
+Instrukcja print - LAB
+Sekcja 4, wyk³ad 31
+1. Wyœwietl napisy: TVP1, TVP2, TVN, Polsat, BBC, HBO, MTV. U¿yj jednego polecenia print
+
+2. Wyœwietl w/w teksty u¿ywaj¹c jako separatora znaku ";"
+
+3. Korzystaj¹c z jednego polecenia print wyœwietl napis (bez podtekstów!):
+
+
+I like computers but better is TVP1 but better is TVP2 but better is TVN but better is Polsat but better is BBC but better is HBO but better is MTV 
+
+4. Zadeklaruj zmienne ProgramName o wartoœci 'BBC', Item o wartoœci 'News'' i Time o wartoœci '18:00'. 
+
+5. Uwaga: W tym zadaniu nie u¿ywaj konkatenacji napisów (³¹czenia napisów). U¿yj tylko polecenia print!
+
+Wyœwietl napis (zwróæ uwagê na kropkê na koñcu!):
+
+I like watching News at 18:00 on BBC .
+
+6.  Zmieñ napis tak, aby kropka by³a zaraz za  BBC. Nadal nie korzystamy z konkatenacji ale z pojedyñczego polecenia print.

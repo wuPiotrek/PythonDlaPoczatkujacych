@@ -1,0 +1,58 @@
+Typ string cz.3 - LAB
+Sekcja 4, wyk³ad 40
+Czy wiesz, ¿e twórca jêzyka Python - Guido Van Rossum - by³ fanem lataj¹cego cyrku Monty Pythona? Tak. To od tego wziê³a siê nazwa jêzyka!
+
+1. WejdŸ na stronê Wikipedii poœwiêconej Monty Pytonowi. Skopiuj fragment z paragrafu zatytuowanego "Lataj¹cy cyrk Monty Pythona".
+
+2. W skrypcie utwórz zmienn¹ article i przypisz jej wartoœæ skopiowanego tesktu.
+
+Uwaga! Skopiowany tekst jest d³ugi i zawiera znaki ENTER. Jeœli chcesz przypisaæ do zmiennej taki tekst mo¿esz u¿yæ konstrukcji z trzema apostrofami o tak:
+
+zmienna = '''
+d³uuugi tekst i jeszcze 
+d³u¿szy tekst i....
+'''
+
+3. Skonwertuj tekst do du¿ych liter i wyœwietl go. Zrób to w jednej instrukcji.
+
+4. Wyœwietl tekst zamieniaj¹c 'monty' na 'flying'. Poniewa¿ python rozpoznaje ma³e i du¿e litery przed zamian¹ skonwertuj go na ma³e litery. Ponownie postaraj siê to zrobiæ w jednym poleceniu.
+
+5. Rozbij tekst na s³owa ze wzglêdu na spacje i wyœwietl t¹ listê.
+
+6. Wyœwietl tekst w postaci:
+        word python appears 3 times 
+oczywiœcie liczba (tutaj 3) powinna byæ wyliczona, jako iloœæ wyst¹pieñ tekstu python w zmiennej article
+
+7. Poleceniem print wyœwietl tekst:
+to print the \ you need to put \ twice in your text like this: \\ 
+
+8. Poleceniem print wyœwietl tekst
+
+The best hits of '80s!!! 
+
+Zrób to na 2 sposoby:
+-raz tekst powinien byæ zamkniêty w pojedynczym apostrofie '
+-a drugi raz tekst powinien byæ zamkniêty w cudzys³owiu "
+
+9. Teraz zrobisz "mini kalkulator" do kantoru wymiany walut. Chcemy wyœwietliæ tabelkê w postaci:
+
+cur   exchange amount
+USD   3.65     64.10958904109589
+EUR   4.23     55.31914893617021
+w tym celu:
+
+-najpierw zadeklaruj zmienn¹ amountPLN i wpisz do niej wartoœæ 234
+
+-nastêpnie wyœwietl teksty rozdzielaj¹c wartoœci tabulatorem, tak aby to co zostanie wypisane na ekranie przypomina³o tabelkê (skorzystaj do tego z kilku poleceñ print, jednolinijkowy print by³by zbyt trudny do zrozumienia)
+
+-wartoœci w kolumnie amount wylicz dziel¹c amountPLN przez aktualny kurs USD i EUR (w tym przyk³adzie s¹ to 3.65 i 4.23)
+
+10. Zadeklaruj zmienn¹ ValueAsText i wpisz do niej wartoœæ '123.45'
+
+11. Zadeklaruj zmienn¹ factor o wartoœci 1.23
+
+12. Wyœwietl tekst:
+
+value is  123.45 factor is 1.23 value*factor= 151.8435 
+
+podczas obliczania value * factor skonwertuj zmienn¹ ValueAsText na typ float

@@ -1,0 +1,13 @@
+Typ string cz.1 - LAB
+Sekcja 4, wyk³ad 34
+Utwórz zmienn¹ quote i przypisz jej nastêpuj¹c¹ wartoœæ:   'A good programmer is someone who always looks both ways before crossing a one-way street'
+Wyœwietl tekst napisany tylko wielkimi literami
+Wyœwietl tekst zapisany tylko ma³ymi literami
+SprawdŸ czy tekst koñczy siê s³owem 'street'
+SprawdŸ czy tekst jest zapisany wielkimi literami
+SprawdŸ, czy tekst skonwertowany do wielkich liter jest zapisany wielkimi literami (Zastosuj z³o¿enie funkcji)
+Poszukaj na której pozycji (licz¹c od zera) znajduje siê w tekœcie s³owo 'one'
+Zamieñ w tekœcie s³owo 'one' na '1'
+Zamieñ w tekœcie s³owo 'one' na '1' a s³owo 'both' na 2
+Rozdziel napis na mniejsze napisy ze wzglêdu na znak rozdzielaj¹cy jakim jest spacja
+SprawdŸ czy napis jest liczb¹, liczb¹ dziesiêtn¹, napisem bez cyfr, napisem z literami i cyframi

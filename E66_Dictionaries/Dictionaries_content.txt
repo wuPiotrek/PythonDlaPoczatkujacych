@@ -1,0 +1,23 @@
+Dictionary - LAB
+Sekcja 5, wyk³ad 66
+Nadal analizujesz wydajnoœæ kana³ów, jakimi mo¿na dotrzeæ do klientów. Ka¿dorazowo po zmienie s³ownika wyœwietl jego zawartoœæ
+
+1. Utwórz obiekt dictionary o nazwie chanels z nastêpuj¹cymi kluczami i wartoœciami:
+
+-Google - 1480
+-Email - 300
+-Natural Traffic - 440
+-TV Spot - 700
+
+2. Wyœwietl wartoœæ skojarzon¹ z kluczem "Email"
+
+3. Utwórz nowy s³ownik chanelsUpdate z kluczami i wartoœciami:
+
+-Natural Traffic -  520
+-News - 600
+
+4.Zaktualizuj s³ownik chanels wartoœciami z chanelsUpdate
+
+5. Wyœwietl wszystkie klucze z chanels
+
+6. Usuñ wartoœæ 'Email' ze s³ownika

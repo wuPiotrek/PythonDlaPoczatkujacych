@@ -1,0 +1,25 @@
+Listy, tuplets - LAB
+Sekcja 5, wyk³ad 63
+Przygotowujesz siê do analizy email-marketingu. Po ka¿dym zadaniu poni¿ej wyœwietl listê:
+
+1. Utwórz listê o nazwie marketing z elementami:
+
+-loyality program
+-client promotion
+-market research
+
+2. Dodaj do listy element 'public relations'
+
+3. Wyœwietl pozycjê numer 3
+
+4. Wstaw na pozycjê numer 2 element 'investor relations'
+
+5. Chcesz jednak aby lista znajdowa³a siê w zmiennej o nazwie emailMarketing. Skopiuj elementy z listy marketing do listy emailMarketing
+
+6. Posortuj listê emailMarketing
+
+7. Utwórz now¹ jednoelementow¹ listê internalEmails. Jedyny element to 'internal communication'
+
+8. Dodaj listê internalEmails do listy emailMarketing
+
+9. Utwórz tuple, którego wartoœci pochodz¹ z listy emailMarketing. Podczas wyœwietlania tuple zwróæ uwagê na nawiasy, z jakich skorzysta³ Python

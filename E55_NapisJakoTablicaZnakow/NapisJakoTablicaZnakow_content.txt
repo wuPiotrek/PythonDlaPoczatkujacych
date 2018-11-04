@@ -1,0 +1,40 @@
+Napis jako tablica znaków - LAB
+Sekcja 4, wyk³ad 55
+1.  Anagram to s³owa, które sk³adaj¹ sie z tych samych liter, ale maj¹ce ró¿ne znaczenia
+ np. "arbuz" >> "burza", "alergia" >> "galeria". Tu pobawimy siê trochê anagramami.
+
+2. Tutaj ka¿d¹ literkê wyodrêbnisz i wykorzystasz oddzielnie. Do zmiennej q zapisz 
+tekst "THE EYES". Wyœwietl napis zbudowany z liter zmiennej q w kolejnoœci: 0,1,2,5,3,7,4,6. 
+Wyœwietlaj¹c literki skorzystaj z print lub dodaj do siebie literki buduj¹c napis.
+
+3. Tutaj u¿yjesz notacji, która pozwoli wyodrêniæ fragment napisu rozpoczynaj¹c 
+od okreœlonej pozycji do koñca. Do zmiennej q zapisz  "a gentleman" a potem wyœwietl 
+litery w kolejnoœci 3,6,7,2,0,4,5,1,8 - do koñca
+
+
+4. Wiesz jak z napisu  "THE MORSE CODE" zrobiæ tekst "HERE COME DOTS"? Gdzie siê da 
+korzystaj z notacji "od-do"
+
+5. Zostajesz zatrudniony w firmie, która wykonuje analizê ogl¹dalnoœci poszczególnych 
+programów TV. Na bardzo pocz¹tkowym etapie, Twój program musi przeczytaæ dane z pliku 
+tekstowego z zapisanym harmonogramem poszczególnych programów. Plik zawiera linie zbudowane 
+tak, ¿e tytu³ programu znajduje siê w cudzys³owiu, a koñczy siê napisem o:, po którym 
+nastêpuje godzina, np tak:
+
+'Program "Kropka nad i" nadamy o: 22:00'
+
+Musisz wyodrêbiæ tytu³ programu i godzinê o której zostanie nadany. W tym celu:
+
+Do zmienej line wpisz tekst "'Program "Kropka nad i" nadamy o: 22:00'"
+
+Do zmiennej time wyodrêbnij sam¹ tylko godzinê (musisz poszukaæ znaku dwukropek 
+i pobraæ wszystkie dalsze znaki)
+
+Wyœwietl napis time
+
+Do zmiennej tmp wyodrêbnij fragment tekstu ze zmiennej line rozpoczynaj¹cy siê za 
+znakiem cudzys³ów do koñca
+
+Do zmiennej title wyodrêbnij z tmp fragment tekstu od pocz¹tku do znaku cudzys³ów
+
+Wyœwietl title i time

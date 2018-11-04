@@ -1,0 +1,39 @@
+Zmienne Tips & Tricks. Kolejnoœæ dzia³añ - LAB
+Sekcja 4, wyk³ad 52
+1. Zadeklaruj zmienne:
+
+v1 o wartoœci 126
+
+v2 o wartoœci '126'
+
+v3 o wartoœci 126.0
+
+v4 o wartoœci '126.0'
+
+2. Zastanów siê (na razie bez sprawdzania), jaki typ maj¹ te zmienne
+
+3. Poleceniami print wyœwietl wartoœci zmiennych i ich typ. Dobrze odgad³eœ(aœ) typ zmiennych?
+
+4. Poleceniami print wyœwiet:
+
+wynik dodawania v1 i v3 oraz typ tak wyznaczonego wyniku
+
+wynik dodawania v2 i v4 oraz typ tak wyznaczonego wyniku
+
+5. Ile to jest:
+
+7-1*0+3+3
+
+Najpierw policz w pamiêci, a potem z Pythonem
+
+6. Ile to jest  4 do potêgi pi¹tej podzielone przez 2 do potêgi 3
+
+7. To zadanie to raczej matematyczna ³amig³ówka, ni¿ typowe zadanie z Pythona, ale z drugiej strony 
+to "smaczek" bycia programist¹ lub matematykiem...
+
+Wyobra¿ sobie, ¿e zepsu³a Ci siê klawiatura. Dzia³a tylko klawisz 9, klawisze z dzia³aniami +-*/ 
+oraz klawisze nawiasów i enter. Na dodatek klawisz 9 mo¿esz nacisn¹æ tylko maksymalnie 4 razy, 
+bo po kolejnym naciœniêciu.... komputer siê restartuje.
+
+Twoim zadaniem jest napisanie na tej zepsutej klawiaturze w interpreterze Python takiego dzia³ania, 
+aby jego wynik wynosi³ 100

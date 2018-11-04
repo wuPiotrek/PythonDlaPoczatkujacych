@@ -1,0 +1,73 @@
+Typ i operatory logiczne - LAB
+Sekcja 4, wyk³ad 49
+Zostajesz zatrudniony(a) do stworzenia oprogramowania pok³adowego nowoczesnego samochodu. 
+Aktualnie Twoim zadaniem jest oprogramowanie sterownika odpowiedzialnego za automatyczne 
+w³¹czanie œwiate³ mijania w samochodzie. Bêdziesz pracowaæ z nastêpuj¹cymi zmiennymi:
+
+isAutomaticMode - zmienna logiczna, o nastêpuj¹cym znaczeniu: wartoœæ True oznacza, 
+¿e kierowca ustawi³ pokrêt³o steruj¹ce œwiat³em na tryb automatyczny. Sterownik ma 
+podejmowaæ decyzjê o zapaleniu œwiate³ tylko je¿eli wartoœæ tej zmiennej to True, 
+ale zapalenie œwiate³ zale¿y jeszcze od kolejnych warunków,
+
+is80PercentLight - zmienna logiczna o nastêpuj¹cym znaczeniu: wartoœæ True oznacza, 
+¿e "chyba" mamy dzieñ, bo jest doœæ du¿o œwiat³a. Œwiat³a w samochodzie powinny byæ 
+zgaszone o ile nie ma innych warunków, które wp³ywa³yby na to, ¿e œwiat³a maj¹ siê œwieciæ. 
+Jeœli wartoœæ zmiennej to False, tzn. ¿e jest doœæ ciemno i œwiat³a powinny siê zaœwieciæ, 
+oczywiœcie o ile jesteœmy w trybie automatycznym
+
+isDirectLight - zmienna logiczna o nastêpuj¹cym znaczeniu: wartoœæ True oznacza, ¿e nisko 
+po³o¿one s³oñce œwieci wprost w oczy kierowcy. Wprawdzie ciemno nie jest, ale w takich 
+warunkach œwiat³a powinny siê zaœwieciæ, oczywiœcie jeœli jesteœmy w trybie automatycznym
+
+isRainy - zmienna logiczna o nastêpuj¹cym znaczeniu: wartoœæ True oznacza, ¿e pada deszcz, 
+jest mg³a lub mamy do czynienia z innymi niekorzystnymi warunkami atmosferycznymi. O ile 
+jesteœmy w trybie automatycznym, to nale¿y zaœwieciæ œwiat³a
+
+Do zmiennej turnLightsOn zapisz wynik wyra¿enia, które w oparciu o w/w zmienne ustali, czy 
+œwiat³a maj¹ zostaæ zapalone czy nie. Potem wyœwietl wynik korzystaj¹c z instrukcji:
+
+print("Automatic mode:   ",isAutomaticMode)
+print("Is the light good:",is80PercentLight)
+print("Is sun low:       ",isDirectLight)
+print("Is it rainy:      ",isRainy)
+print("TURN LIGHTS ON:   ",turnLightsOn)
+Przetestuj dzia³anie wyra¿enia zmieniaj¹c pocz¹tkowe wartoœci zmiennych wejœciowych, np:
+
+isAutomaticMode = True
+# is the level of day-lighr above 80%
+is80PercentLight = True
+# is the Sun ligthing directly into the driver's face
+isDirectLight = False
+# is it rainy, foggy or other weather conditions are present
+isRainy = False
+>> œwiat³a powinny siê NIE œwieciæ
+
+isAutomaticMode = True
+is80PercentLight = False
+isDirectLight = False
+isRainy = False
+>> œwiat³a powinny siê œwieciæ
+
+isAutomaticMode = True
+is80PercentLight = True
+isDirectLight = False
+isRainy = True
+>> œwiat³a powinny siê œwieciæ
+
+isAutomaticMode = True
+is80PercentLight = True
+isDirectLight = True
+isRainy = False
+>> œwiat³a powinny siê œwieciæ
+
+isAutomaticMode = True
+is80PercentLight = False
+isDirectLight = False
+isRainy = True
+>> œwiat³a powinny siê œwieciæ
+
+isAutomaticMode = False
+is80PercentLight = True
+isDirectLight = False
+isRainy = True
+>> œwiat³a powinny siê NIE œwieciæ

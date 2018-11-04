@@ -1,0 +1,33 @@
+Formatowanie napisów i typy numeryczne - LAB
+Sekcja 4, wyk³ad 46
+1. Zadeklaruj zmienn¹ name i przypisz do niej swoje imie
+
+2. Zadeklaruj zmienn¹ age i przypisz do niej wiek
+
+3. Zadeklaruj zmienn¹ daysInYear i przypisz jej wartoœæ 365
+
+4. Zadekraruj zmienn¹ message i przypisz jej wartoœæ jak poni¿ej. Uwaga w miejscu ??? nale¿y umieœciæ znaczniki pozwalaj¹ce na wyœwietlenie kolejno napisu i dwóch liczb
+
+'??? is ??? years old, so is about ??? days old' 
+
+5. Wyœwietl informacjê jak poni¿ej (wykorzystaj funkcje formatowania napisów)j:
+
+Jan is 26 years old, so is about 9490 days old 
+
+6. Zmieñ imie i wiek w zmiennych name i age i jeszcze raz wyœwietl komunikat korzystaj¹c z tej samej instrukcj co poprzednio
+
+7. Zmieñ wartoœæ zmiennej message na:
+
+message = '{???} is {???} years old, so is about {???} days old' 
+
+Ponownie w miejscu ??? nale¿y umieœciæ odpowiednie napisy formatuj¹ce pozwalaj¹ce wyœwietliæ napis i 2 liczby
+
+8. Stosuj¹c metodê format dla zmiennej message wyœwietl komunikat w postaci:
+
+Chris is 17 years old, so is about 6205 days old 
+
+9. Wyznacz wynik dzielenia ca³kowitego i resztê z dzielenia 1234567890 przez 12345:
+
+Wynik powinien wygl¹daæ tak:
+
+1234567890 divided by 12345 is  100005 and the rest is 6165 

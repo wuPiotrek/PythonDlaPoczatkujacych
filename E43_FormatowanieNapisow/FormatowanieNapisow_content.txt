@@ -1,0 +1,49 @@
+Formatowanie napisów - LAB
+Sekcja 4, wyk³ad 43
+1. Zadeklaruj zmienn¹ helloMessage i wpisz do niej tekst:
+
+"Hello %s!"
+
+2. Korzystaj¹c z tej zmiennej oraz z operatora % wyœwietl dwa powitania: raz %s nale¿y zamieniæ na Kate a raz na Chirs
+
+3. Zmieñ zawartoœæ zmiennej helloMessage na
+
+"Hello {0:s}!"
+
+4. Podobnie , jak w punkcie drugim wyœwietl powitanie z Kate i Chis, ale tym razem skorzystaj z metody format
+
+5. Zmieñ zawartoœæ zmiennej helloMessage na
+
+"%s has %d %s"
+
+6. Korzystaj¹c z tej zmiennej oraz z operatora % wyœwietl dwa komunikaty.
+
+w pierwszym komunikacie %s zamieñ na Kate, %d na 1, a %s na animal
+
+w drugim komunikacie %s zamieñ na  Chris, %d na 100000, a %s na $
+
+7. Zmieñ zawartoœæ zmiennej helloMessage na
+
+"{0:s} has {1:d} {2:s}"
+
+8. Wyœwietl te same komunikaty, jak w punkcie 6, ale tym razem skorzystaj z metody format
+
+9. [Trochê trudniejsze, ale ca³a trudnoœæ polega na samodzielnym zbudowaniu napisu formatuj¹cego i to w takiej postaci, 
+¿e na ka¿dy element w napisie ma zostaæ przewidziana okreœlona liczba znaków] 
+Utwórz zmienn¹ line i wpisz do niej tekst pozwalaj¹cy na wyœwietlenie na 20 znakach pewnego napisu, nastêpnie s³owa 
+"costs", nastêpnie na 6 znakach pewnej liczby i nastêpnie znaku €, np:
+
+ICE CREAM            costs      3 €
+TRIP TO VENICE       costs    119 €
+PIZZA HAWAII         costs      6 €
+... BTW, wiesz jak uzyskaæ znak € z klawiatury? O ile u¿ywasz Windows powinien zadzia³aæ prawy ALT + u
+
+10. Korzystaj¹c ze zmiennej line i polecenia print,  zamieniaj odpowiednie znaczniki na podane ni¿ej wartoœci, tak aby 
+w efekcie zosta³ wyœwietlony cennik us³ug:
+
+ICE CREAM    3
+
+TRIP TO VENICE  119
+
+PIZZA HAWAI  6
+

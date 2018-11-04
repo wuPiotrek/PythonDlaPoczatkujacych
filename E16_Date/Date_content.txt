@@ -1,6 +1,7 @@
 Python & IDLE - LAB
 Sekcja 3, wyk³ad 16
-Dobrze by by³o abyœ w dalszej czêœci kursu samodzielnie próbowa³ wykonywaæ ró¿ne æwiczenia. Dlatego warto mieæ zainstalowanego Pythona i IDLE.
+Dobrze by by³o abyœ w dalszej czêœci kursu samodzielnie próbowa³ wykonywaæ ró¿ne æwiczenia. 
+Dlatego warto mieæ zainstalowanego Pythona i IDLE.
 
 1. Zainstaluj Python - wersja 3.x
 

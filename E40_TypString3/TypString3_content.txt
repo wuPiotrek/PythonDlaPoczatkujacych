@@ -6,7 +6,8 @@ Czy wiesz, ¿e twórca jêzyka Python - Guido Van Rossum - by³ fanem lataj¹cego cyr
 
 2. W skrypcie utwórz zmienn¹ article i przypisz jej wartoœæ skopiowanego tesktu.
 
-Uwaga! Skopiowany tekst jest d³ugi i zawiera znaki ENTER. Jeœli chcesz przypisaæ do zmiennej taki tekst mo¿esz u¿yæ konstrukcji z trzema apostrofami o tak:
+Uwaga! Skopiowany tekst jest d³ugi i zawiera znaki ENTER. Jeœli chcesz przypisaæ do zmiennej taki tekst mo¿esz u¿yæ konstrukcji z trzema 
+apostrofami o tak:
 
 zmienna = '''
 d³uuugi tekst i jeszcze 
@@ -15,7 +16,8 @@ d³u¿szy tekst i....
 
 3. Skonwertuj tekst do du¿ych liter i wyœwietl go. Zrób to w jednej instrukcji.
 
-4. Wyœwietl tekst zamieniaj¹c 'monty' na 'flying'. Poniewa¿ python rozpoznaje ma³e i du¿e litery przed zamian¹ skonwertuj go na ma³e litery. Ponownie postaraj siê to zrobiæ w jednym poleceniu.
+4. Wyœwietl tekst zamieniaj¹c 'monty' na 'flying'. Poniewa¿ python rozpoznaje ma³e i du¿e litery przed zamian¹ skonwertuj go na ma³e litery. 
+Ponownie postaraj siê to zrobiæ w jednym poleceniu.
 
 5. Rozbij tekst na s³owa ze wzglêdu na spacje i wyœwietl t¹ listê.
 
@@ -43,7 +45,8 @@ w tym celu:
 
 -najpierw zadeklaruj zmienn¹ amountPLN i wpisz do niej wartoœæ 234
 
--nastêpnie wyœwietl teksty rozdzielaj¹c wartoœci tabulatorem, tak aby to co zostanie wypisane na ekranie przypomina³o tabelkê (skorzystaj do tego z kilku poleceñ print, jednolinijkowy print by³by zbyt trudny do zrozumienia)
+-nastêpnie wyœwietl teksty rozdzielaj¹c wartoœci tabulatorem, tak aby to co zostanie wypisane na ekranie przypomina³o tabelkê 
+(skorzystaj do tego z kilku poleceñ print, jednolinijkowy print by³by zbyt trudny do zrozumienia)
 
 -wartoœci w kolumnie amount wylicz dziel¹c amountPLN przez aktualny kurs USD i EUR (w tym przyk³adzie s¹ to 3.65 i 4.23)
 

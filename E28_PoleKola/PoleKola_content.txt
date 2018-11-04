@@ -1,11 +1,14 @@
 Wprowadzenie do skryptowania - LAB
 Sekcja 3, wyk³ad 28
-W tym laboratorium masz okazjê przeæwiczyæ pracê w wybranym edytorze, a przy okazji przekonasz siê, ¿e nie jest prawd¹, ¿e "nauka wzorów w szkole jest bez sensu, bo siê w ¿yciu nie przydaje", bo siê przydaje! Np. do rozwi¹zania zadañ z tego modu³u :)  
+W tym laboratorium masz okazjê przeæwiczyæ pracê w wybranym edytorze, a przy okazji przekonasz siê, ¿e nie jest prawd¹, 
+¿e "nauka wzorów w szkole jest bez sensu, bo siê w ¿yciu nie przydaje", bo siê przydaje! Np. do rozwi¹zania zadañ z tego modu³u :)  
 
 Utwórz nowy skrypt
 Utwórz zmienn¹ o nazwie WartoœæPi i przypisz jej wartoœæ 3.14
 Utwórz zmienn¹ PromienOkregu i  przypisz jej wartoœæ 5
-Utwórz zmienn¹ PoleKola i przypisz jej wartoœæ korzystaj¹c ze wzoru na pole ko³a (WartoscPi razy PromienOkregu do kwadratu). Uwa¿aj na wielkoœæ liter i korzystaj z dostêpnych skrótów klawiaturowych, które pomog¹ np uzupe³niæ nazwê zmiennej kiedy wpisa³eœ ju¿ pocz¹tek nazwy zmiennej
+Utwórz zmienn¹ PoleKola i przypisz jej wartoœæ korzystaj¹c ze wzoru na pole ko³a (WartoscPi razy PromienOkregu do kwadratu). 
+Uwa¿aj na wielkoœæ liter i korzystaj z dostêpnych skrótów klawiaturowych, które pomog¹ np uzupe³niæ nazwê zmiennej kiedy 
+wpisa³eœ ju¿ pocz¹tek nazwy zmiennej
 Wyœwietl wynik poleceniem print
 Przed tymi poleceniami dodaj komentarz: "w tym zadaniu liczymy pole ko³a"
 W podobny sposób wylicz jeszcze:

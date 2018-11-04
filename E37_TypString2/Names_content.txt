@@ -1,16 +1,21 @@
 Typ string cz.2 - LAB
 Sekcja 4, wyk³ad 37
-1. Pracujesz w Urzêdzie Stanu Cywilnego i ... korzystasz z Pythona. Dziewczyna o imieniu Kasia i nazwisku Sowa wychodzi za m¹¿ za ch³opaka o nazwisku Mruga³a. Pani Kasia chce zachowaæ oba nazwiska.
+1. Pracujesz w Urzêdzie Stanu Cywilnego i ... korzystasz z Pythona. Dziewczyna o imieniu Kasia i nazwisku Sowa wychodzi 
+za m¹¿ za ch³opaka o nazwisku Mruga³a. Pani Kasia chce zachowaæ oba nazwiska.
 
-Zdefiuniuj zmienne firstName, famillyName i lastName i przypisz do nich napisy odpowiadaj¹ce imieniu, nazwisku panieñskim i nowym nazwisku. Nastêpnie utwórz zmienn¹ newName i zapisz w niej wynik konkatenacji (czyli z³¹czenia napisów) dla firstname, spacji, familyName, spacji i lastName. Wyœwietl to nowe nazwisko
+Zdefiuniuj zmienne firstName, famillyName i lastName i przypisz do nich napisy odpowiadaj¹ce imieniu, nazwisku panieñskim 
+i nowym nazwisku. Nastêpnie utwórz zmienn¹ newName i zapisz w niej wynik konkatenacji (czyli z³¹czenia napisów) dla firstname, 
+spacji, familyName, spacji i lastName. Wyœwietl to nowe nazwisko
 
 2. Zdefiniuj zmienn¹ music o nastêpuj¹cej zawartoœci (s¹ to tytu³y i autorzy piosenek z filmu Minionki):
 
 "Universal Fanfare" Jerry Goldsmith "Happy Together" Garry Bonner "I'm a Man"	Steve Winwood 
 
-Uwaga! Ten napis zawiera zarówno apostrof jak i cudzys³ów, wiêc musisz zmodyfikowaæ zapis metodami pokazanymi na tej lekcji, ¿eby zdefiniowanie zmiennej siê uda³o.
+Uwaga! Ten napis zawiera zarówno apostrof jak i cudzys³ów, wiêc musisz zmodyfikowaæ zapis metodami pokazanymi na tej lekcji, 
+¿eby zdefiniowanie zmiennej siê uda³o.
 
-3. W powy¿szym tekœcie mowa jest o 3 piosenkach. Zmieñ tekst tak, aby druga i trzecia piosenka podczas wyswietlania by³y umieszczone w nowej linii (znowu musisz w tekœcie dodaæ pewne znaki specjalne prezentowane na lekcji).
+3. W powy¿szym tekœcie mowa jest o 3 piosenkach. Zmieñ tekst tak, aby druga i trzecia piosenka podczas wyswietlania by³y 
+umieszczone w nowej linii (znowu musisz w tekœcie dodaæ pewne znaki specjalne prezentowane na lekcji).
 
 4. Przygoruj kilka poleceñ print, które wyœwietl¹ taki oto ascii art:
 

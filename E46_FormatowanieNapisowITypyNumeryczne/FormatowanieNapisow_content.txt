@@ -6,7 +6,8 @@ Sekcja 4, wyk³ad 46
 
 3. Zadeklaruj zmienn¹ daysInYear i przypisz jej wartoœæ 365
 
-4. Zadekraruj zmienn¹ message i przypisz jej wartoœæ jak poni¿ej. Uwaga w miejscu ??? nale¿y umieœciæ znaczniki pozwalaj¹ce na wyœwietlenie kolejno napisu i dwóch liczb
+4. Zadekraruj zmienn¹ message i przypisz jej wartoœæ jak poni¿ej. Uwaga w miejscu ??? nale¿y umieœciæ 
+znaczniki pozwalaj¹ce na wyœwietlenie kolejno napisu i dwóch liczb
 
 '??? is ??? years old, so is about ??? days old' 
 

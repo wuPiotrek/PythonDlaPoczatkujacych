@@ -14,7 +14,8 @@ powinna wynosic 16
 
 ilosc mrugniec okiem na minute 
 
-3. Zdefiniuj zmienn¹ blinksPerMin i przypisz jej wartoœæ  20. Poni¿ej masz instrukcje, która to wykonuje, ale w nastêpnych krokach takie instrukcje bêdziesz ju¿ pisaæ samodzielnie
+3. Zdefiniuj zmienn¹ blinksPerMin i przypisz jej wartoœæ  20. Poni¿ej masz instrukcje, która to wykonuje, 
+ale w nastêpnych krokach takie instrukcje bêdziesz ju¿ pisaæ samodzielnie
 
 blinksPerMin = 20 
 

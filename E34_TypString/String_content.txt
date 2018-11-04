@@ -1,6 +1,7 @@
 Typ string cz.1 - LAB
 Sekcja 4, wyk³ad 34
-Utwórz zmienn¹ quote i przypisz jej nastêpuj¹c¹ wartoœæ:   'A good programmer is someone who always looks both ways before crossing a one-way street'
+Utwórz zmienn¹ quote i przypisz jej nastêpuj¹c¹ wartoœæ:   'A good programmer is someone who always looks both 
+ways before crossing a one-way street'
 Wyœwietl tekst napisany tylko wielkimi literami
 Wyœwietl tekst zapisany tylko ma³ymi literami
 SprawdŸ czy tekst koñczy siê s³owem 'street'

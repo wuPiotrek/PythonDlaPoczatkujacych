@@ -1,0 +1,24 @@
+Dodatek: Kolejnoœæ dzia³añ i wyra¿enia logiczne - LAB
+Sekcja 4, wyk³ad 57
+1. W tym zadaniu mo¿esz siê spodziewaæ ciekawego wyniku. (je¿eli chcesz sprawdziæ jego dzia³anie w innym roku ni¿ 2017 
+to zmieñ liczbê 1017, np dla roku bie¿¹cego 2019 nale¿y u¿yæ 1019):
+
+>>> Zapisz swój numer buta i pomnó¿ przez 5. Do tego dodaj 50. Ca³oœæ pomnó¿ przez 20, a nastêpnie dodaj 1017. Odejmij 
+od tego swój rok urodzenia. Wysz³a 4cyfrowa liczba. Pierwsze dwie cyfry to Twój numer buta a dwie ostatnie to Twój wiek.<<<
+
+2. Kolejne dzia³anie z tego samego cyklu:
+
+>>>Pomyœl liczbe nieujemn¹ ca³kowit¹. Pomnó¿ j¹ przez 2, dodaj 10, podziel przez 2, odejmnij pocz¹tkow¹ liczbê. Powinno wyjœæ 5 - zawsze. <<<
+
+3. Ile to jest - najpierw policz sam, a potem sprawdŸ rozwi¹zanie pythona
+
+2+2*2 = ?
+
+7+7/7+7*7-7 = ?
+
+4. Wyk³adowca mówi studentom. Zaliczysz semestr je¿eli masz obecnoœæ co najmniej 80% i œredni¹ >= 3.0 lub zaliczy³eœ pracê semestraln¹. 
+Zbuduj wyra¿enie w Python które stwierdzi czy student, który ma obecnoœæ 0.85, œredni¹ 3.5 i nie zaliczy³ pracy semestralnej zda czy nie.
+
+5. Wyk³adowca zmieni³ zdanie. Aby zaliczyæ semest trzeba: mieæ obecnoœæ co najmniej 80%, œredni¹ >=3.0 i zaliczon¹ pracê. Czy teraz student zda?
+
+6. Zmieniamy dane studenta. Teraz ma obecnoœæ 40%. œredni¹ 2.5 ale zaliczy³ pracê semestraln¹. SprawdŸ wg którego z kryterów student zaliczy semestr.

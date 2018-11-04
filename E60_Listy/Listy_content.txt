@@ -1,0 +1,48 @@
+Listy - LAB
+Sekcja 5, wyk³ad 60
+Jaka jest najlepsza lista? Oczywiœcie lista przebojów Trójki ;). W tych zadaniach zajmiemy siê przebojami publikowanymi 
+na http://lp3.polskieradio.pl/topnotowanie/
+
+
+
+1. Utwórz listê hitsTitles zawieraj¹c¹ tytu³y: 'BROTHERS IN ARMS','BOHEMIAN RHAPSODY','STAIRWAY TO HEAVEN',
+'RIDERS ON THE STORM','WISH YOU WERE HERE'
+
+2. Dodaj do listy kolejne dwie piosenki: 'CHILD IN TIME' i 'AGAIN'
+
+3. Wygl¹da na to, ¿e w systemie g³osowania by³a luka. Na pozycji 3 powinna siê znaleŸæ piosenka 'HOTEL CALIFORNIA'
+
+4. Ops... wygl¹da na to, ¿e system by³ bardziej zepsuty... oczywiœcie to wina IT. Piosenka 'THE SOUND OF SILENCE' 
+powinna znaleŸæ siê na pierwszym miejscu
+
+5. To na jakiej pozycji jest teraz 'HOTEL CALIFORNIA'? OdnajdŸ numer indeksu dla tej piosenki
+
+6. A jednak 'HOTEL CALIFORNIA' powinien zostaæ usuniêty z listy
+
+7. No i na pierwszym miejscu tytu³ "THE SOUND OF SILENCE" powinien zostaæ zamieniony na "ENJOY THE SILENCE"
+
+8. Utwórz kopiê listy, która bêdzie s³u¿y³a do odczytania przebojów na antenie. Nowa lista ma nazywaæ siê hitsToRead
+
+9. Lista do odczytania ma zawieraæ elementy w odwrotnej kolejnoœci. Odwróæ kolejnoœæ elementów na liœcie hitsToRead.
+
+10. A jednak dzisiaj lista przebojów bêdzie  wyj¹tkowo prezentowana w kolejnoœci alfabetycznej. Posortuj hitsToRead 
+w kolejnoœci alfabetycznej
+
+11. Prowadz¹cy listê przebojów po odczytaniu tytu³u usuwa z listy hitsToRead usuwa odczytany element. 
+Dlatego korzysta z metody pop :). Zasymuluj odczyt dwóch pierwszych pozycji
+
+12. W czasie audycji s³uchacze domagali siê aby zagraæ dodatkowo 'NOTHING COMPARES 2 U' i 'WISH YOU WERE HERE'. 
+Utwórz listê additionalSongs zawieraj¹c¹ te dwa tytu³y.
+
+13. Dodaj do listy hitsToRead elementy z listy additionalSongs
+
+14. Ile razy bêdzie zagrane 'WISH YOU WERE HERE' a ile razy 'RIDERS ON THE STORM'. Wyœwietl ile razy te piosenki 
+wystêpuj¹ na liœcie hitsToRead.
+
+15. Audycja siê koñczy. Wyczyœæ listê hitsToRead
+
+
+
+Chcesz jeszcze wiêcej poæwiczyæ z listami? Zrób listê upragnionych prezentów na urodziny, listê krajów jakie chcesz 
+odwiedzaæ w wakacje, listê ulubionych knajpek w okolicy itp. Staraj siê korzystaæ z tych samych instrukcji, 
+co pokazywane na lekcji i æwiczone w tym zadaniu

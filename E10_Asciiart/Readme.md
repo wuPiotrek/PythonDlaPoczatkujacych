@@ -1,5 +1,5 @@
 # Pierwszy skrypt w języku Python - LAB
-<textarea name="pole"> 
+<code> 
 >           /^\/^\\')
 >         _|__|  O|')
 >\/     /~     \_/ \\')
@@ -17,7 +17,7 @@
 >          \      ~-____-~    _-~    ~-_    ~-_-~    /
 >            ~-_           _-~          ~-_       _-~
 >               ~--______-~                ~-___-~
-</textarea>
+</code>
 
 ## Sekcja 3, wykład 10
 1. Uruchom notatnik i wpisz kod pozwalający na wyświetlenie o czegoś takiego:

@@ -2,25 +2,27 @@
 
 ## Sekcja 3, wykład 10
 1. Uruchom notatnik i wpisz kod pozwalający na wyświetlenie o czegoś takiego:
-<div>
->>>>>>>>>>>>>/^\/^\\')<br/>
->>>>>>>>>>>_|__|  O|')<br/>
->\/     /~     \_/ \\')<br/>
->\____|__________/ \\')<br/>
->>>>>>>>>\_______     \\')<br/>
->                `\     \                 \\<br/>
->                  |     |                  \\<br/>
->                 /      /                    \\<br/>
->                /     /                       \\\\<br/>
->              /      /                         \ \\<br/>
->             /     /                            \  \\<br/>
->           /     /             _----_            \   \\<br/>
->          /     /           _-~      ~-_         |   |<br/>
->         (      (        _-~    _--_    ~-_     _/   |<br/>
->          \      ~-____-~    _-~    ~-_    ~-_-~    /<br/>
->            ~-_           _-~          ~-_       _-~<br/>
->               ~--______-~                ~-___-~<br/>
-</div>
+
+<textarea>
+print('           /^\/^\\')<br/>
+print('         _|__|  O|')<br/>
+print('\/     /~     \_/ \\')<br/>
+print(' \____|__________/ \\')<br/>
+print('        \_______     \\')<br/>
+print('                `\     \                 \\')
+print('                  |     |                  \\')
+print('                 /      /                    \\')<
+print('                /     /                       \\\\')
+print('              /      /                         \ \\')
+print('             /     /                            \  \\')
+print('           /     /             _----_            \   \\')
+print('          /     /           _-~      ~-_         |   |')
+print('         (      (        _-~    _--_    ~-_     _/   |')
+print('          \      ~-____-~    _-~    ~-_    ~-_-~    /')
+print('            ~-_           _-~          ~-_       _-~')
+print('               ~--______-~                ~-___-~')
+</textarea>
+
 2. Zapisz plik pod nazwą „asciiart.py”<br/>
 3. Uruchom wiersz polecenia i dowolną metodą uruchom ten skrypt<br/>
 4. Ładne?<br/>

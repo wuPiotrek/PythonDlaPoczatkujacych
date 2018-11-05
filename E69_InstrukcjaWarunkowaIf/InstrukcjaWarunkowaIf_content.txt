@@ -1,0 +1,53 @@
+Instrukcja warunkowa IF - LAB
+Sekcja 6, wyk³ad 69
+1.  
+
+Pracujesz dla firmy odzie¿owej, której celem jest wypromowanie nowej kolekcji ubrañ. Firma og³osi³a konkurs, 
+który ma na celu zdobywanie "lajków" i "udostêpnieñ" na Facebooku. Jeœli strona firmy otrzyma danego dnia co 
+najmniej 500 "lajków" i co najmniej 100 "udostêpnieñ", to ceny spadn¹ o 10%. Na razie masz napisaæ fragment programu, 
+który rozstrzygnie czy warunki promocji s¹ spe³nione czy nie. Jeœli ju¿ wiesz jak to zrobiæ "GO ON!", a jeœli chcesz, 
+aby Ciê trochê pokierowaæ - zajrzyj do kolejnych punktów:
+
+zadeklaruj zmienn¹ MIN_LIKES  o wartoœci 500 i MIN_SHARES o wartoœci 100
+
+zadeklaruj zmienn¹ num_likes i num_shares o wartoœciach wskazuj¹cych na to ile by³o klikniêæ LIKE i SHARE na Facebooku. 
+Przypisz tym zmiennym wybrane przez CIebie wartoœci. Zmieniaj¹c te wartoœci bêdziesz testowaæ poprawnoœæ swojego programu,
+np 1300 lajków i 55 sharów
+
+napisz polecenie IF, które w przypadku spe³nienia warunku opisanego na pocz¹tku, wyœwietli komunikat o obni¿ce ceny, 
+a w przeciwnym razie wyœwietli komunikat o braku wystarczaj¹cej iloœci lajków i sharów
+
+przetestuj dzia³anie polecenia IF zmieniaj¹c wartoœci zmiennych num_like i num_shares
+
+
+
+2.  Pracujesz dla restauracji, która chce nagrodziæ klientów zamawiaj¹cych w dni robocze (poza weekendem) pizze lub 
+du¿y napój. Klienci spe³niaj¹cy warunki promocji dostan¹ kupon na darmowego burgera. Na razie piszesz polecenie decyduj¹ce 
+o spe³nieniu warunków promocji. Do dyspozycji masz zmienne:
+
+isPizzaOrdered - o wartoœci True/False, która informuje, czy klient kupi³ Pizzê
+
+isBigDrinkOrdered - o wartoœci True/False, która informuje, czy klient zamówi³ du¿y napój
+
+isWeekend - o wartoœci True/False, która informuje, czy jest weekend
+
+Napisz polecenie IF, które w przypadku, gdy klient kupi³ pizzê lub du¿y napój w dzieñ poza weekendem, wyœwietli informacjê 
+o kuponie na Burgera, a w przeciwnym razie wyœwietli komunikat zachêcaj¹cy do dalszych zakupów.
+
+Zmieniaj wejœciowe warunki logiczne i testuj, czy polecenie zwraca oczekiwany napis.
+
+
+
+3. Twój zespó³ opracowuje przegl¹darkê internetow¹ w Pythonie! Twoim zadaniem jest sprawdzenie, czy operacja pobierania 
+pliku na dysk ma siê szansê udaæ, czy jest od razy skazana na pora¿kê ze wzglêdu na brak miejsca na dysku. Na wejœciu masz nastêpuj¹ce zmienne:
+
+diskSize - zmienna numeryczna (np. o wartoœci 140) oznaczaj¹ca wielkoœæ dysku w GB
+
+diskSizeUsed - zmienna numeryczna (np. o wartoœci 133) oznaczaj¹ca ilosæ zajêtego miejsca na dysku w GB
+
+fileSize - zmienna numeryczna (np o wartoœci 10) oznaczaj¹ca wielkoœæ pobieranego pliku w GB
+
+Zbuduj polecenie IF, które w przypadku, gdy jest wystarczaj¹co wolnego miejsca na dysku wyœwietli komunikat "File can be downloaded". 
+W przypadku, gdy plik jest za du¿y, ma byæ wyœwietlony komunikat o braku miejsca na dysku
+
+Zmieniaj¹c parametry wejœciowe przetestuj dzia³anie polecenia

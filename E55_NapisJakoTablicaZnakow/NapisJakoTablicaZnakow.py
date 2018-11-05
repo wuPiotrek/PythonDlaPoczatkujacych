@@ -1,6 +1,6 @@
 #################################################
 exNumber = 1, 2
-print("-" * 5, exNumber, "-" * 30)
+print("-" * 5, exNumber, "-" * 25)
 # Code:
 
 q = 'THE EYES'

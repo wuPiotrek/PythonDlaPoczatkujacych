@@ -1,0 +1,60 @@
+Instrukcja if / elif - LAB
+Sekcja 6, wyk³ad 72
+Kontynuujemy przyk³ady z poprzedniej lekcji
+
+
+
+1. Jak pamiêtasz (mam nadziejê) sklep odzie¿owy uruchamia³ promocjê tylko je¿eli iloœæ lajków by³a wiêksza lub równa 500 
+a iloœæ udostêpnieñ co najmniej 100. Kiedy oba warunki by³y spe³nione sprawa by³a prosta - rozpoczyna³a siê obni¿ka cen. 
+Kiedy jednak brakowa³o lajków lub udostêpnieñ, to wypada³oby daæ znaæ czego brak.
+
+Najpierw napisz zagnie¿d¿one wyra¿enie if / else, a potem przekszta³æ do postaci if/elif/else. Mo¿esz to zrobiæ "po swojemu", 
+ale jak chcesz mo¿esz stosowaæ siê do moich podpowiedzi. To propozycje kroków w rozwi¹zaniu z zagnie¿d¿onymi if/else
+
+jeœli warunki s¹ spe³nione - œwietnie, rozpoczynamy promocj
+
+w przeciwnym razie
+
+jeœli brakuje lajków wyœwietl informacjê o braku lakjów
+
+w przeciwnym razie (musi brakowaæ udostêpnieñ - to logiczne!)
+
+wyœwietl informacjê o braku udostêpnieñ
+
+Przepisujac instrukcje do if/elif/else stosuj sie do tych zaleceñ:
+
+jeœli warunki s¹ spe³nione, zaczynamy promocjê
+
+w przeciwnym razie jeœli iloœæ lajków jest za ma³a - wyœwietl komunikat o brakuj¹cych lajkach
+
+w przeciwnym razie wyœwietl komunikat o brakuj¹cych udostêpnieniach
+
+
+
+2. Restauracja oferowa³a kupon na burgera, je¿eli zamówi³eœ pizzê lub du¿y napój w dzieñ nie bêd¹cy dniem weekendowym. 
+Kiedy warunki promocji by³y spe³nione, sprawa by³a prosta - dajemy kupon. Jednak w przypadku niespe³nienia warunków 
+wypada³oby poinformowaæ, który warunek nie jest spe³niony.
+
+Wskazówki do rozwi¹zania z zagnie¿d¿onym if/else
+
+je¿eli warunki s¹ spe³nione wydajemy kupon na burgera
+
+w przeciwnym razie
+
+je¿eli jest weekend, to wyœwietlamy informacjê, ¿e promocja dotyczy tylko dni poza weekendem
+
+w przeciwnym razie (ju¿ wiadomo, ¿e to nie jest weekend, wiêc brak³o na zamówieniu pizzy lub du¿ego napoju!)
+
+wyœwietlamy informacjê o braku pizzy
+
+Przepisuj¹c rozwi¹zanie na if/elif/else stosuj siê do wskazówek:
+
+jeœli warunki s¹ spe³nione - wydaj kupon na burgera
+
+w przeciwnym razie jeœli jest to weekend, wyœwietl komunikat o tym, ¿e promocja obowi¹zuje wy³¹cznie w weekend
+
+w przeciwnym razie wyœwietl komunikat o tym, ¿e nale¿y zamówiæ pizze lub du¿y napój
+
+
+
+Pamiêtaj, ¿e stosowanie if/elif/else jest znacznie lepsze jeœli chodzi o styl programowania!

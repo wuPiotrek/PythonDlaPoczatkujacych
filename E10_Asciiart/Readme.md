@@ -1,9 +1,6 @@
 # Pierwszy skrypt w języku Python - LAB
 
-## Sekcja 3, wykład 10
-1. Uruchom notatnik i wpisz kod pozwalający na wyświetlenie o czegoś takiego:
-
-#           /^\/^\\')
+>#           /^\/^\\')
 #         _|__|  O|')
 #\/     /~     \_/ \\')
 # \____|__________/ \\')
@@ -22,6 +19,8 @@
 #               ~--______-~                ~-___-~
 
 
+## Sekcja 3, wykład 10
+1. Uruchom notatnik i wpisz kod pozwalający na wyświetlenie o czegoś takiego:
 2. Zapisz plik pod nazwą „asciiart.py”
 3. Uruchom wiersz polecenia i dowolną metodą uruchom ten skrypt
 4. Ładne?

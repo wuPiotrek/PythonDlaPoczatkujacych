@@ -1,28 +1,25 @@
 # Pierwszy skrypt w języku Python - LAB
 
-## Table of contents
-* [Sekcja 3, wykład 10](#general-info)
-
 ## Sekcja 3, wykład 10
 1. Uruchom notatnik i wpisz kod pozwalający na wyświetlenie o czegoś takiego:
 
-print('           /^\/^\\')
-print('         _|__|  O|')
-print('\/     /~     \_/ \\')
-print(' \____|__________/ \\')
-print('        \_______     \\')
-print('                `\     \                 \\')
-print('                  |     |                  \\')
-print('                 /      /                    \\')
-print('                /     /                       \\\\')
-print('              /      /                         \ \\')
-print('             /     /                            \  \\')
-print('           /     /             _----_            \   \\')
-print('          /     /           _-~      ~-_         |   |')
-print('         (      (        _-~    _--_    ~-_     _/   |')
-print('          \      ~-____-~    _-~    ~-_    ~-_-~    /')
-print('            ~-_           _-~          ~-_       _-~')
-print('               ~--______-~                ~-___-~')
+           /^\/^\\')
+         _|__|  O|')
+\/     /~     \_/ \\')
+ \____|__________/ \\')
+        \_______     \\')
+                `\     \                 \\
+                  |     |                  \\
+                 /      /                    \\
+                /     /                       \\\\
+              /      /                         \ \\
+             /     /                            \  \\
+           /     /             _----_            \   \\
+          /     /           _-~      ~-_         |   |
+         (      (        _-~    _--_    ~-_     _/   |
+          \      ~-____-~    _-~    ~-_    ~-_-~    /
+            ~-_           _-~          ~-_       _-~
+               ~--______-~                ~-___-~
 
 
 2. Zapisz plik pod nazwą „asciiart.py”

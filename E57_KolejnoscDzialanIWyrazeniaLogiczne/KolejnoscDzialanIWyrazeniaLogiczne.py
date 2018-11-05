@@ -1,17 +1,39 @@
-print('1:')
+#################################################
+exNumber = 1
+print("-" * 5, exNumber, "-" * 30)
+# Code:
+
 yearOfBirth = 1993
 shoeSize = 44
-print(((shoeSize * 5 + 50) * 20 + 1018) - yearOfBirth)
+print('Rok urodzenia:', yearOfBirth)
+print('Numer buta', shoeSize)
+print('Wynik', ((shoeSize * 5 + 50) * 20 + 1018) - yearOfBirth)
 
-print('\n2:')
+
+#################################################
+exNumber = 2
+print("-" * 5, exNumber, "-" * 30)
+# Code:
+
 theNumber = 51
-print((theNumber * 2 + 10) / 2 - theNumber)
+print('Liczba:', theNumber)
+print('Wynik:', (theNumber * 2 + 10) / 2 - theNumber)
 
-print('\n3:')
+
+#################################################
+exNumber = 3
+print("-" * 5, exNumber, "-" * 30)
+# Code:
+
 print(2 + 2 * 2)
 print(7 + 7 / 7 + 7 * 7 - 7)
 
-print('\n4:')
+
+#################################################
+exNumber = 4
+print("-" * 5, exNumber, "-" * 30)
+# Code:
+
 attendance = 0.85
 gradesAverage = 3.5
 semesterWork = False
@@ -21,7 +43,12 @@ print('Średnia ocen      :', gradesAverage)
 print('Praca semestralna :', semesterWork)
 print("Czy zaliczy?      :", ifComplete)
 
-print('\n5:')
+
+#################################################
+exNumber = 5
+print("-" * 5, exNumber, "-" * 30)
+# Code:
+
 attendance = 0.85
 gradesAverage = 3.5
 semesterWork = False
@@ -31,7 +58,12 @@ print('Średnia ocen      :', gradesAverage)
 print('Praca semestralna :', semesterWork)
 print("Czy zaliczy?      :", ifComplete)
 
-print('\n6:')
+
+#################################################
+exNumber = 6
+print("-" * 5, exNumber, "-" * 30)
+# Code:
+
 print('KRYTERIUM PIERWSZE')
 attendance = 0.40
 gradesAverage = 2.5
@@ -41,7 +73,7 @@ print('Frekwencja        :', attendance)
 print('Średnia ocen      :', gradesAverage)
 print('Praca semestralna :', semesterWork)
 print("Czy zaliczy?      :", ifComplete)
-
+print()
 print('KRYTERIUM DRUGIE')
 attendance = 0.40
 gradesAverage = 2.5
@@ -52,3 +84,4 @@ print('Średnia ocen      :', gradesAverage)
 print('Praca semestralna :', semesterWork)
 print("Czy zaliczy?      :", ifComplete)
 
+#################################################

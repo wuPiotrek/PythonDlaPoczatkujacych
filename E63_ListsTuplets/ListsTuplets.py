@@ -1,35 +1,72 @@
-#1
+#################################################
+exNumber = 1
+print("-" * 5, exNumber, "-" * 30)
+# Code:
+
 marketing = ['loyality program', 'client promotion', 'market research']
 print(marketing)
-#2
+
+#################################################
+exNumber = 2
+print("-" * 5, exNumber, "-" * 30)
+# Code:
+
 marketing.append('public relations')
 print(marketing)
-print()
-#3
-print('Pozycja numer 3:')
+
+#################################################
+exNumber = 3
+print("-" * 5, exNumber, "-" * 30)
+# Code:
+
 print(marketing[2])
-print()
-#4
-marketing.insert(2, 'investor relations')
+
+#################################################
+exNumber = 4
+print("-" * 5, exNumber, "-" * 30)
+# Code:
+
+marketing.insert(1, 'investor relations')
 print(marketing)
-print()
-#5
+
+#################################################
+exNumber = 5
+print("-" * 5, exNumber, "-" * 30)
+# Code:
+
 emailMarketing = marketing.copy()
 print(emailMarketing)
-print()
-#6
+
+#################################################
+exNumber = 6
+print("-" * 5, exNumber, "-" * 30)
+# Code:
+
 emailMarketing.sort()
 print(emailMarketing)
-print()
-#7
+
+#################################################
+exNumber = 7
+print("-" * 5, exNumber, "-" * 30)
+# Code:
+
 internalEmails = ['internal communication']
 print(internalEmails)
-print()
-#8
+
+#################################################
+exNumber = 8
+print("-" * 5, exNumber, "-" * 30)
+# Code:
+
 emailMarketing.extend(internalEmails)
 print(emailMarketing)
-print()
-#9
+
+#################################################
+exNumber = 9
+print("-" * 5, exNumber, "-" * 30)
+# Code:
+
 emailMarketingTuple = tuple(emailMarketing)
 print(emailMarketingTuple)
-print(type(emailMarketingTuple))
+
+#################################################

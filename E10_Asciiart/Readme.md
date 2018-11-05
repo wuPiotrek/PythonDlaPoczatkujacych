@@ -2,25 +2,25 @@
 
 ## Sekcja 3, wykład 10
 1. Uruchom notatnik i wpisz kod pozwalający na wyświetlenie o czegoś takiego:
-
-<code>            /^\/^\\')</code>
-<code>         _|__|  O|')</code>
-<code>\/     /~     \_/ \\')</code>
-<code>\____|__________/ \\')</code>
-<code>        \_______     \\')</code>
-<code>                `\     \                 \\</code>
-<code>                  |     |                  \\</code>
-<code>                 /      /                    \\</code>
-<code>                /     /                       \\\\</code>
-<code>              /      /                         \ \\</code>
-<code>             /     /                            \  \\</code>
-<code>           /     /             _----_            \   \\</code>
-<code>          /     /           _-~      ~-_         |   |</code>
-<code>         (      (        _-~    _--_    ~-_     _/   |</code>
-<code>          \      ~-____-~    _-~    ~-_    ~-_-~    /</code>
-<code>            ~-_           _-~          ~-_       _-~</code>
-<code>               ~--______-~                ~-___-~</code>
-
+<div>
+            /^\/^\\')
+         _|__|  O|')
+\/     /~     \_/ \\')
+\____|__________/ \\')
+        \_______     \\')
+                `\     \                 \\
+                  |     |                  \\
+                 /      /                    \\
+                /     /                       \\\\
+              /      /                         \ \\
+             /     /                            \  \\
+           /     /             _----_            \   \\
+          /     /           _-~      ~-_         |   |
+         (      (        _-~    _--_    ~-_     _/   |
+          \      ~-____-~    _-~    ~-_    ~-_-~    /
+            ~-_           _-~          ~-_       _-~
+               ~--______-~                ~-___-~
+</div>
 2. Zapisz plik pod nazwą „asciiart.py”
 3. Uruchom wiersz polecenia i dowolną metodą uruchom ten skrypt
 4. Ładne?

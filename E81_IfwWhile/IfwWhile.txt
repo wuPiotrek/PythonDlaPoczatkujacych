@@ -1,0 +1,47 @@
+If w while - przyk³ad: wyszukiwanie wzorca - LAB
+Sekcja 7, wyk³ad 82
+Dziêki znajomoœci Pythona dostajesz pracê w BTAW (Bardzo Tajna Agencja Wywiadowcza). 
+Od poprawnego rozwi¹zania poni¿szych zadañ zale¿y z³amanie algorytmów szyfruj¹cych wroga:
+
+
+
+1. Dana jest zakodowana informacja w postaci tabeli:
+
+numbers = [8, 18, 2, 4, 16, 5, 25, 4, 22, 3, 3, 5, 3, 9, 81, 11]
+
+Trzeba odnaleŸæ takie dwie kolejne liczby, ¿e druga jest kwadratem pierwszej. W tym celu:
+
+trzeba wykonaæ analizê po dwa elementy na raz
+
+zmienna steruj¹ca i przyjmie wartoœæ od zera do ..... ?
+
+przy pomocy pêtli while i steruj¹cej ni¹ zmiennej i analizuj po dwie wartoœci z listy na raz
+
+wyœwietl analizowane wartoœci
+
+je¿eli pierwsza z nich do kwadratu jest równa drugiej, to wyœwietl napis "FOUND"
+
+
+
+2. Pracujemy z t¹ sam¹ list¹ co poprzednio. Tym razem nale¿y analizowaæ po 3 wartoœci na raz. 
+Interesuje nas odnalezienie takich 3 liczb, ¿e pierwsza do kwadratu równa siê drugiej, a druga 
+do kwadratu równa siê trzeciej. W³aœciwie do tego zadania mo¿esz wykorzystaæ pêtlê z poprzedniego zadania, z tym, ¿e:
+
+analizujemy po 3 liczby na raz
+
+zmienna steruj¹ca przyjmie wartoœæ od zera do ....?
+
+
+
+3. Tym razem w wejœciowej liœcie znajduj¹ siê napisy:
+
+texts = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
+
+Twoim zadaniem jest znalezienie takich par kolejnych napisów z tej listy, ¿e d³ugoœæ pierwszego 
+jest równa d³ugoœci drugiego, np, d³ugoœæ napisu "one" to 3, d³ugoœæ napisu "two" to 3, wiêc taka 
+para powinna byæ odnaleziona. Z kolei d³ugoœæ napisu 'two' to 3, a d³ugoœæ napisu "three" to 5, 
+taka para nie jest rozwi¹zaniem. W³aœciwie mo¿na znowu bazowaæ na poprzednich rozwi¹zaniach, ale:
+
+zmieni³a siê tabela wejœciowa
+
+zmienia siê warunek w if - to ju¿ nie s¹ dzia³ania na liczbach ale porównywanie d³ugoœci napisów

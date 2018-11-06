@@ -1,0 +1,34 @@
+IF - LAB
+Sekcja 6, wyk³ad 75
+Tym razem pomo¿emy lekarzom przeprowadzaj¹c wstêpn¹ analizê: czy pacjent ma grypê, czy tylko przeziêbienie 
+(zak³adamy, ¿e pacjentowi coœ dolega, w tym zadaniu mamy tylko pomóc zdiagnozowaæ czy to jest grypa czy przeziêbienie):
+
+1, Utwórz 3 zmienne
+
+-musclePain - wartoœæ false
+-fever - wartoœæ true
+-weakness - wartoœæ true
+
+2. Napisz wyra¿enie if, które
+
+-jeœli wystêpuja wszystkie 3 objawy wyœwietli komunikat "suspiction of influenza"
+-w przeciwnym razie wyœwietli "The flu is unlikely"
+
+3. Napisz wyra¿enie if, które:
+
+-jeœli wystêpuja wszystkie 3 objawy wyœwietli komunikat "suspiction of influenza"
+-jeœli wystêouje os³abienie (weakness) ale nie ma gor¹czki lub nie ma bólu miêœni to wyœwietli "Just take a rest!"
+-w przeciwnym razie wyœwietli "you may be cold"
+
+4. Mê¿czyŸni przeziêbienie przechodz¹ jak grypê... dodaj zmienn¹ isMan o wartoœci true
+
+5. Napisz wyra¿enie if, które:
+
+-komunikat o grypie wyœwietli je¿eli wystêpuj¹ wszystkie 3 objawy lub co najmniej jeden z nich o ile pacjent jest mê¿czyzn¹
+-w pozosta³ych przypadkach zachowanie ma byæ jak w  poprzednim przyk³adzie
+
+6. Zmieniamy temat. Pilot przed wystartowaniem powinien sprawdziæ listê kontroln¹. W³aœnie piszesz kod, który odpowiada 
+za wyœwietlenie napisu "CHECK IS COMPLETED" je¿eli lista kontrolna zosta³a ju¿ pomyœlnie wykonana i zamkniêta, 
+w przeciwnym razie powinien byæ wyœwietlany komunikat "CHECK NOT DONE YET!". Zmienna True/False, która zawiera 
+informacjê o tym czy lista kontrolna zosta³a ju¿ wykonana nazywa sie isCheckCompleted. Korzystaj¹c z ternary operator 
+przygotuj polecenie if wyœwietlaj¹ce odpowiedni komunikat

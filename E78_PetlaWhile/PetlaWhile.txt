@@ -1,0 +1,69 @@
+Pêtla while - LAB
+Sekcja 7, wyk³ad 78
+1. Tym razem pracujesz w LOT i masz za zadanie rozpocz¹æ programowanie rozk³adu miejsc w samolocie. (Patrz https://www.lot.com/pl/pl/boeing-737-800-rozklad-miejsc lub ilustracja na koñcu tego laboratorium)
+
+Nale¿y wyœwietliæ napisy:
+
+Row number 1
+
+Row number 2
+
+...
+
+Row number 30
+
+Row number 31
+
+W tym celu:
+
+zadeklaruj zmienn¹ firstRow i przypisz jej wartoœæ 1
+
+zadeklaruj zmienn¹ lastRow i przypisz jej wartoœæ  31
+
+zadeklaruj zmienn¹ currentRow i przypisz jej wartoœæ  firstRow
+
+Dopóki currentRow jest mniejsze równe lastRow:
+
+wyœwietlaj napis "Row number...."
+
+po wyœwietleniu napisu zwiêkszaj currentRow o 1
+
+
+
+2. Œni Ci siê koszmar. Twój nauczyciel matematyki kaza³ Ci wypisaæ liczby od 1 do 13 i 
+dla ka¿dej liczby wyliczyæ jej kwadrat i szeœcian. Poniewa¿ nauczyciel nie zabroni³ u¿ywaæ 
+Pythona, napisz pêtlê, która dla liczb od 1 do 13 wyœwietli kwadrat i szeœcian tej liczby
+
+
+
+3. Œni Ci siê koszmar. Dziecko kuzynki zafascynowane informatyk¹  prosi Ciê o wymienienie 
+kolejnych potêg dwójki. Postanawiasz znowu skorzystaæ z Pythona. Napisz pêtlê while, która 
+dla liczby x  od 0 do 16 wyznaczy wartoœæ dwa do potêgi x.
+
+
+
+4. Czy wiesz, ¿e polecenie:
+
+5*'x'
+
+wyœwietli
+
+xxxxx
+
+Tym razem Twoja Babcia poprosi³a Ciê o wydrukowanie wzoru haftu krzy¿ykowego w nastêpuj¹cej postaci:
+
+x
+xx
+xxx
+xxxx
+xxxxx
+xxxxxx
+xxxxxxx
+xxxxxxxx
+xxxxxxxxx
+xxxxxxxxxx
+Babcia woli jednak przechowywaæ te wzory w postaci skryptów Pythona zamiast gotowych plików tekstowych 
+ze wzorkiem, bo jak twierdzi "Skrypty zajmuj¹ w komputerze mniej bajtów - cokolwiek by to by³o".
+
+Napisz pêtlê while, która wygeneruje taki napis sk³adaj¹cy siê z liter 'x' powielanych wiele razy.
+

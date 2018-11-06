@@ -1,0 +1,63 @@
+Pêtla while - przyk³ady - LAB
+Sekcja 7, wyk³ad 84
+1. Dokucza³eœ prowadz¹cemu ten kurs i dostajesz "za karê zadanie" - 
+musisz wyznaczyæ sumy dwóch kolejnych liczb od 0 do 50, np
+
+0+1 = 1
+1+2 = 3
+2+3 = 5
+3+4 = 9 itd.
+Wyjmij kartkê i licz lub:
+
+zadeklaruj zmienn¹ number i przypisz jej wartoœæ 1
+
+zadeklaruj zmienn¹ previusNumber i przypisz jej wartoœæ 0
+
+Napisz  pêtlê while, która wykonywaæ siê bêdzie tak d³ugo, jak d³ugo number jest mniejsze ni¿ 50
+
+w pêtli:
+
+wyœwietl sumê number i previus_number
+
+do previous_number przypisz wartoœæ number
+
+zwiêksz number o 1
+
+2. Teraz napiszesz... poniek¹d prost¹ grê. Zasady s¹ proste. Komputer wymyœli sobie liczbê od 0 do 20, a Ty musisz j¹ zgadn¹æ!
+
+Polecenia
+
+import random
+my_number = random.randint(0,20)
+wygeneruj¹ liczbê losow¹ i umieszcz¹ jej wartoœæ w zmiennej my_number (wiêcej o module random w dalszej czêœæi kursu).
+
+Zadeklaruj zmienn¹ guess i przypisz jej wartoœæ -1 (to wartoœæ spoza zakresu losowanych liczb - czyli 
+na pewno nie jest równa wylosowanej liczbie)
+
+Wyœwietl instrukcjê do gry - przynajmniej s³owa "Guess my number!"
+
+Wykonuj pêtlê while tak d³ugo jak wartoœæ w zmiennej guess jest ró¿na od wartoœci my_number
+
+poleceniem
+
+guess = int(input())
+
+wczytaj odpowiedŸ u¿ytkownika (uwaga program nie jest odporny na wprowadzenie w tym miejscu np. napisu zamiast 
+liczby - o obs³udze b³êdów opowiadam w ostatnim module kursu)
+
+SprawdŸ wartoœæ liczby guess i
+
+je¿eli jest równa my_number, to wyœwietl gratulacje
+
+w przeciwnym razie jeœli guess jest wiêksze od my_number wyœwietl "Sorry- my number is smaller than your guess, Try again!"
+
+w przeciwnym razie wyœwietl  "Sorry- my number is greater than your guess, Try again!"
+
+A teraz pobaw siê kilka razy ;)
+
+
+
+3. Do poprzedniego zadania dodaj zmienn¹ trials, która bêdzie liczyæ iloœæ prób. Pocz¹tkowo powinna mieæ wartoœæ 0, 
+a potem po ka¿dej instrukcji wczytywania liczby guess ma byæ powiêkszana o 1.
+
+Wyœwietlaj¹c gratulacja wyœwietl te¿ informacje za którym razem uda³o siê odgadn¹æ liczbê

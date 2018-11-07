@@ -1,0 +1,32 @@
+Zagnie¿d¿ona pêtla for - LAB
+Sekcja 7, wyk³ad 93
+ZADANIE 1
+
+W tym zadaniu obliczysz silniê. Silnia  to dzia³anie matematyczne, które dla liczby n 
+wyznacza wartoœæ mno¿¹c przez siebie wszystkie liczby naturalne mniejsze lub równe n. 
+Symbol oznaczaj¹cy silniê to wykrzyknik, np.:
+
+2! = 1*2 =2
+3! = 1*2*3 = 6
+4! = 1*2*3*4 = 24
+https://pl.wikipedia.org/wiki/Silnia
+
+Zmienna i ma wartoœæ 5. Korzystaj¹c z pêtli for wyznacz wartoœæ silnia i
+
+
+
+ZADANIE 2
+
+Chcesz wyznaczyæ wartoœci silnia dla liczb od 1 do 10. Napisz pêtlê for iteruj¹c¹ przez 
+wartoœci od 1 do 10, a w tej pêtli for wyznaczaj silniê dla ka¿dej z tych liczb
+
+
+
+ZADANIE 3
+
+Masz liczbê rzeczowników i przymiotników:
+
+list_noun = ['dog', 'potato', 'meal', 'icecream', 'car']
+list_adj = ['dirty', 'big', 'hot', 'colorful', 'fast']
+Utwórz pêtlê for iteruj¹c¹ przez listê rzeczwoników i zagnie¿d¿on¹ w niej pêtlê for 
+iteruj¹c¹ przez listê przymiotników. Wyœwietl wszystkie pary przymiotnik - rzeczownik

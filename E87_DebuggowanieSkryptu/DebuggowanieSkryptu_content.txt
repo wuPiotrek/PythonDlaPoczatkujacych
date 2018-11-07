@@ -1,0 +1,37 @@
+Debuggowanie skryptu -LAB
+Sekcja 7, wyk³ad 87
+1. Pamiêtasz zadanie "za karê" dodaj¹ce kolejne liczby?
+
+Oto propozycja rozwi¹zania. Skopiuj j¹ do w³asnego skryptu i uruchom:
+
+number = 1
+previus_number = 0
+ 
+while number<50:
+    print(number + previus_number)
+    previus_number=number
+    number+1
+opsss.... zawiesi³o siê? Skrypt mo¿na przerwaæ naciskaj¹c CTRL+C. Korzystaj¹c z 
+debuggera znajdŸ b³¹d (znajdŸ go nawet jeœli ju¿ widzisz co jest nie tak ;))
+
+W odpowiedziach znajdziesz opis przyczyny problemu
+
+
+
+2. Poni¿szy program ma za zadanie (w nieco dziwny sposób!) utworzyæ napis o d³ugoœci
+ 10 znaków zapisany w zmiennej text. Niestety coœ posz³o nie tak. Korzystaj¹c z debuggera znajdŸ przyczynê. 
+W odpowiedziach znajdziesz poprawn¹ wersjê skryptu z komentarzem
+
+
+
+text = ''
+number = 10
+condition = True
+ 
+while condition:
+ 
+    text+='x'
+    print(text)
+    
+if len(text)>number:
+    condition=False

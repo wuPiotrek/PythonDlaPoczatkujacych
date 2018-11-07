@@ -1,0 +1,34 @@
+FOR - LAB
+Sekcja 7, wyk³ad 90
+ZADANIE 1
+
+Dana jest lista:
+
+data = ['Error:File cannot be open',
+        'Error:No free space on disk',
+        'Error:File missing',
+        'Warning:Internet connection lost',
+        'Error:Access denied']
+Napisz pêtlê for, która wyœwietli elementy tej listy jeden po drugim. Podczas wyœwietlania elementów konwertuj napisy do wilkich liter.
+
+
+
+ZADANIE 2
+
+Jak widzisz, ka¿dy z elementów listy zawiera znak ":".
+
+W pêtli for ka¿dy z przetwarzanych napisów rozbij ze wzglêdu na ":" korzystaj¹c z funkcji split.
+
+Wynik zapamiêtaj w nowej dwuelementowej liœcie elements.
+
+Nastêpnie wyœwietl elements[0] konwertuj¹c napis do wielkich liter, a elements[1] wyœwietl bez ¿adnej konwersji
+
+
+
+ZADANIE 3
+
+Rozpocznij od poprzednio utworzonej pêtli. Zmieniamy zasady wyœwietlania:
+
+Je¿eli w elements[0] znajduje siê napis "Error", wyœwietl elements[1] konwertuj¹c tekst do wielkich liter
+
+w przeciwnym razie wyœwietl elements[1] bez ¿adnej konwersji

@@ -1,0 +1,55 @@
+Pêtla wykonywana okreœlon¹ iloœæ razy - LAB
+Sekcja 7, wyk³ad 96
+Dane s¹ nastêpuj¹ce napisy:
+
+string_A = '+---+---+---+---+'
+string_B = '|   |   |   |   |'
+Korzystaj¹c z polecenia FOR wyœwietl:
+
++---+---+---+---+
++---+---+---+---+
++---+---+---+---+
++---+---+---+---+
++---+---+---+---+
++---+---+---+---+
++---+---+---+---+
++---+---+---+---+
++---+---+---+---+
++---+---+---+---+
+Korzystaj¹c z polecenia FOR wyœwietl:
+
++---+---+---+---+
+|   |   |   |   |
++---+---+---+---+
+|   |   |   |   |
++---+---+---+---+
+|   |   |   |   |
++---+---+---+---+
+|   |   |   |   |
++---+---+---+---+
+Korzystaj¹c z polecenia FOR wyœwietl:
+
+x
+xx
+xxx
+xxxx
+xxxxx
+xxxxxx
+xxxxxxx
+xxxxxxxx
+xxxxxxxxx
+(wskazówka: aby wyœwietli 5 liter x u¿yj "x" *5
+
+
+
+Korzystaj¹c z polecenia FOR wyœwietl:
+
+o
+xx
+ooo
+xxxx
+ooooo
+xxxxxx
+ooooooo
+xxxxxxxx
+ooooooooo

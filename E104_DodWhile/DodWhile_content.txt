@@ -1,0 +1,67 @@
+Dodatek: WHILE - LAB
+Sekcja 7, wyk³ad 104
+ZADANIE 1
+
+Na konto zosta³a wp³acona kwota initialCapital w wysokoœci 20000. Oprocentowanie na koncie to percent = 0.03. 
+Klient banku postanawia oszczêdzaæ przez maxTimeYears = 10 lat. Po ka¿dym roku oszczêdzania zarobiona kwota jest
+dodawana do oszczêdnoœci i zarabia odsetki przez pozosta³y czas.
+
+Zadeklaruj wymagane zmienne, a nastêpnie stwórz pêtlê, która wyœwietli informacjê o tym ile pieniêdzy jest na 
+koncie pod koniec roku, kiedy odsetki siê kapitalizuj¹. Dodaj na zakoñczenie informacjê o ca³kowitej kwocie zarobionej w banku.
+
+ZADANIE 2
+
+Dana jest liczba ca³kowita dodatnia number = 20730906, Oblicz sumê cyfr tej liczby.
+
+Wskazówka 1:
+
+-utwórz pomocnicz¹ zmienn¹, która bêdzie podlega³a modyfikacji podczas pracy programu
+
+-warunkiem pêtli mo¿e byæ sprawdzanie, czy ta pomocnicza zmienna jest >0
+
+-aby wyliczyæ ostatni¹ cyfrê podziel pomocnicz¹ zmienn¹ modulo (operator %) 10
+
+-aby usun¹æ ostatni¹ cyfrê z pomocniczej zmiennej podziel j¹ c¹³kowiicie ( operator // )  przez 10 i wynik zapisz w tej samej pomocniczej zmiennej
+
+Wskazówka 2:
+
+Skorzystaj z tego opisu, je¿eli nadal nie masz pomys³u na rozwi¹zanie. Ten opis, to jakby s³owne opowiedzenie tego co robi program:
+
+Mamy liczbê 20730906 zapisn¹, a jak¿e inaczej w systemie DZIESIÊTNYM.
+Kiedy t¹ liczbê podzielê modulo (symbol dzia³ania %) przez 10 (dzielenie modulo zwraca resztê z dzielenia) to dostaniemy 6 - czyli ostatni¹ cyfrê.
+Potem ta ostatnia cyfra ju¿ mnie nie obchodzi. Wiêc dzielê bez reszty (symbol dzia³ania //) przez 10. W wyniku dostajê wiêc liczbê 2073090.
+I od pocz¹tku:
+Mamy liczbê 1073090 i dzielê j¹ modulo % przez 10. Zwrócona reszta to 0
+Teraz ostatnia cyfra ju¿ mnie nie obchodzi, wiêc dzielê bez reszty // przez 10. W wyniku dostajê liczbê 207309.
+I od pocz¹tku:
+Mamy liczbê 207309 i dzielê j¹ modulo % przez 10. Zwrócona reszta to 9
+Teraz ostatnia cyfra ju¿ mnie nie obchodzi, wiêc dzielê bez reszty // przez 10. W wyniku dostajê liczbê 207309
+i tak dalej, a¿ dojdê do zera.
+
+
+ZADANIE 3
+
+Dany jest tekst:
+
+United Space Alliance: This company provides major support to NASA for
+various projects, such as the space shuttle. One of its projects is to
+create Workflow Automation System (WAS), an application designed to
+manage NASA and other third-party projects. The setup uses a central
+Oracle database as a repository for information. Python was chosen over
+languages such as Java and C++ because it provides dynamic typing and
+pseudo-code–like syntax and it has an interpreter. The result is that
+the application is developed faster, and unit testing each piece is easier.
+
+policz ile jest w nim s³ów d³u¿szych od wordLength = 6
+
+Wskazówka:
+
+-jako s³owo potraktujemy ka¿dy ci¹g znaków rozdzielony spacj¹
+
+-aby tekst podzieliæ na s³owa skorzystaj z funkcji split(' ') i zapisz wynik w liœcie listOfWords
+
+-zadeklaruj zmienne shortWords i longWords=0
+
+-pêtl¹ przejdŸ przez listê s³ów i poleceniem IF badaj czy napis jest s³u¿szy od wordLength. Jeœli tak zwiêksz liczbê longWords o 1, 
+a jeœli nie to zwiêksz shortWords
+

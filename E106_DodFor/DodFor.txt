@@ -1,0 +1,78 @@
+Dodatek: FOR - LAB
+Sekcja 7, wyk³ad 106
+ZADANIE 1
+
+Ci¹g Fibonacciego to ci¹g rozpoczynaj¹cy siê od 0 i 1 a ka¿da kolejna liczba to suma dwóch poprzenich, np:
+
+0
+1
+0+1 = 1
+1+1 = 2
+1+2 = 3
+2+3 = 5
+....
+
+Korzystaj¹c z pêtli for napisz program, który wyliczy fibonacciIterations=20 pierwszych elementów ci¹gu Fibonacciego
+
+Wskazówka:
+-zadeklaruj 3 dodatkowe zmienne a1, a2 i a3. Pocz¹tkowo a1=0 a a2=1. a3 bêdziesz wyliczaæ jako 
+sumê a1 i a2. W pêtli trzeba te¿ bêdzie zmieniaæ wartoœæ a1 na a2 oraz a2 na a3
+
+
+
+ZADANIE 2
+
+Masz dany tekst:
+
+Industrial Light & Magic: In this case, you find Python
+used in the production process for scripting complex,
+computer graphic-intensive films. Originally, Industrial
+Light & Magic relied on Unix shell scripting, but it was
+found that this solution just couldn’t do the job. Python
+was compared to other languages, such as Tcl and Perl, and
+chosen because it’s an easier-to-learn language that the
+organization can implement incrementally. In addition, Python
+can be embedded within a larger software system as a scripting
+language, even if the system is written in a language such as
+C/C++. It turns out that Python can successfully interact with
+these other languages in situations in which some languages can’t.
+Twoim zadaniem jest wyœwietliæ tylko te s³owa, które zawieraj¹ literkê "p"
+
+
+
+ZADANIE 3
+
+Dany masz s³ownik:
+
+dictionary={'A':'80%-100%','B':'60%-80%','C':'50-60%','D':'less then 50%'} 
+
+Wyœwietl zestawienie w postaci (kolejnoœæ nie jest istotna):
+
+A - 80%-100%
+B - 60%-80%
+C - 50-60%
+D - less then 50%
+
+
+ZADANIE 4 ***
+
+Nale¿y policzyæ ile razy w w/w tekœcie wystêpowa³y poszczególne s³owa
+
+
+Wskazówki:
+
+-zadeklaruj zmienn¹ wordDictionary typu dictionary. Obiekt na pocz¹tku ma byæ pusty 
+wiêc do jego zainicjowania mo¿esz skorzystaæ z {}. W tym dictionary kluczem bêdzie s³owo 
+z tekstu a wartoœci¹ iloœæ wyst¹pieñ s³owa w tekœcie
+
+-korzystaj¹c z funkcji split(' ') podziel napis na s³owa i zaopamietaj w tablicy listOfWords
+-dla ka¿dego s³owa z tej listy (pêtla FOR)
+-je¿eli s³owo ju¿ jest na liœcie wordictionary.keys() - to do value dodaj 1 
+-je¿eli s³owo nie wystêpowa³o jeszcze na liœcie to dodaj je jako nowy element dictionary z 
+kluczem równym s³owu i wartoœci¹ 1 (mo¿na skorzystaæ np z funkcji  
+
+setdefault 
+
+lub notacji 
+
+wordDictionary[word]=1

@@ -1,0 +1,81 @@
+Instrukcja continue - LAB
+Sekcja 7, wyk³ad 102
+Twoim zadaniem jest stworzenie fragmentu programu, który wyœwietla menu z opcjami do wyboru, 
+sa nastêpnie zale¿nie od dokonanego wyboru wykona pewne czynnoœci.
+
+Zadeklaruj zmienne:
+
+menu = '''
+Choose what you want me to do for you:
+1 - COFFEE
+2 - TEE
+3 - MAKE ME SMILE
+---------------
+To stop this script select 0
+'''
+ 
+smile = '''
+ 
+                          oooo$$$$$$$$$$$$oooo
+                      oo$$$$$$$$$$$$$$$$$$$$$$$$o
+                   oo$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o         o$   $$ o$
+   o $ oo        o$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o       $$ $$ $$o$
+oo $ $ "$      o$$$$$$$$$    $$$$$$$$$$$$$    $$$$$$$$$o       $$$o$$o$
+"$$$$$$o$     o$$$$$$$$$      $$$$$$$$$$$      $$$$$$$$$$o    $$$$$$$$
+  $$$$$$$    $$$$$$$$$$$      $$$$$$$$$$$      $$$$$$$$$$$$$$$$$$$$$$$
+  $$$$$$$$$$$$$$$$$$$$$$$    $$$$$$$$$$$$$    $$$$$$$$$$$$$$  """$$$
+   "$$$""""$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     "$$$
+    $$$   o$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     "$$$o
+   o$$"   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$       $$$o
+   $$$    $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" "$$$$$$ooooo$$$$o
+  o$$$oooo$$$$$  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$   o$$$$$$$$$$$$$$$$$
+  $$$$$$$$"$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     $$$$""""""""
+ """"       $$$$    "$$$$$$$$$$$$$$$$$$$$$$$$$$$$"      o$$$
+            "$$$o     """$$$$$$$$$$$$$$$$$$"$$"         $$$
+              $$$o          "$$""$$$$$$""""           o$$$
+               $$$$o                                o$$$"
+                "$$$$o      o$$$$$$o"$$$$o        o$$$$
+                  "$$$$$oo     ""$$$$o$$$$$o   o$$$$""
+                     ""$$$$$oooo  "$$$o$$$$$$$$$"""
+                        ""$$$$$$$oo $$$$$$$$$$
+                                """"$$$$$$$$$$$
+                                    $$$$$$$$$$$$
+                                     $$$$$$$$$$"
+                                      "$$$""""
+'''
+Napisz pêtlê while, która bêdzie dzia³aæ w nieskoñczonoœæ. W tej pêtli:
+
+wyœwietl napis menu z dostêpnymi opcjami
+
+wczytaj do zmiennej letter wybór u¿ytkownika
+
+napisz polecenie if, które w przypadku, gdy w letter znajduje siê 1
+
+wyœwietli informacjê "Function COFFEE not implemented"
+
+poprosi o naciœniêcie ENTER
+
+wróci na pocz¹tek pêtli while
+
+napisz polecenie  if, które w przypadku, gdy w letter znajduje siê 2
+
+wyœwietli informacjê "Function TEE not implemented"
+
+poprosi o naciœniêcie ENTER
+
+wróci na pocz¹tek pêtli while
+
+napisz polecenie if, które w przypadku, gdy w letter znajduje siê 3
+
+wyœwietli napis znajduj¹cy siê w zmiennej smile
+
+poprosi o naciœniêcie ENTER
+
+wróci na pocz¹tek pêtli while
+
+napisz polecenie if, które w przypadku, gdy w letter znajduje sie 0
+
+przerwie dzia³anie nieskoñczonej pêtli while
+
+w ka¿dym pozosta³ym przypadku wyœwietli instrukcjê czekaj¹c na naciœniêcie ENTER:
+ "You need to make a valid choice. Press ENTER and try again!"

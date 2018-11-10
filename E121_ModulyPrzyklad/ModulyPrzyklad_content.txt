@@ -1,0 +1,58 @@
+Modu³y - przyk³ad - LAB
+Sekcja 8, wyk³ad 122
+1. Rzuæ kostk¹. Co? Nie masz kostki do gry pod rêk¹? W takim razie:
+
+
+
+Zaimportuj modu³ random
+
+Zainicjiuj zmienne min =1 i max = 6
+
+Do zmiennej dice zapisz wynik losowania liczby miêdzy min, a max. W ten sposób zasymulowaliœmy rzut kostk¹.
+
+Napisz sekwencjê poleceñ if/elif/else, która w zale¿noœci od wylosowanej wartoœci wyœwietli:
+
+
+
+1:
+   
+ o 
+   
+ 
+2:
+  o
+   
+o  
+ 
+3:
+  o
+ o 
+o  
+ 
+4:
+o o
+   
+o o
+ 
+5:
+o o
+ o 
+o o
+ 
+6:
+o o
+o o
+o o
+
+
+2. Trochê zmieniamy temat. Rzuæ piêcioma kostkami:
+
+
+
+zadeklaruj zmienn¹ dices jako pust¹ listê
+
+piêæ razy wylosuj liczbê z zakresu min do max i wynik dopisz do listy dices
+
+posortuj listê dices
+
+wyœwietl zawartoœæ zmienej dices 

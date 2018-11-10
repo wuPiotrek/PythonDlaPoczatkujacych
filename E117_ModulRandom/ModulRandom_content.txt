@@ -1,0 +1,83 @@
+Modu³ random - LAB
+Sekcja 8, wyk³ad 119
+1. Zaimportuj modu³ random
+
+2. Wylosuj 10 liczb z zakresu 1-100
+
+3. To nieco d³u¿sze zadanie:
+
+do zmiennej number1 wylosuj liczbê ca³kowit¹ z zakresu 1-100
+
+twoim celem bêdzie losowanie liczb losowych tak d³ugo, a¿ znowu wylosujesz liczbê number1. 
+Dodatkowo chcemy policzyæ ile prób jest do tego potrzebnych
+
+do zmiennej counter zapisz 1
+
+do zmiennej number2 wylosuj liczbê z zakresu 1-100
+
+wyœwietl numer próby (counter) i wylosowan¹ liczbê (number2)
+
+Tak d³ugo jak d³ugo number1 jest inne ni¿ number2
+
+zwiêksz counter o 1
+
+wylosuj ponownie liczbê number2 (liczba ca³kowita od 1 do 100)
+
+wyœwietl numer próby (counter) i wylosowan¹ liczbê (number2)
+
+Na zakoñczenie wyœwietl podsumowanie z infromacj¹ o iloœci prób
+
+4. Tym razem zbudujesz program losuj¹cy sk³ad do rozgrywek "2018 FIFA WORLD CUP RUSSIA". 
+Utwórz zmienn¹ countries jak poni¿ej:
+
+countries = [
+    'Uruguay',
+    'Russia',
+    'Saudi Arabia',
+    'Egypt',
+    'Spain',
+    'Portugal',
+    'Iran',
+    'Morocco',
+    'France',
+    'Denmark',
+    'Peru',
+    'Australia',
+    'Croatia',
+    'Argentina',
+    'Nigeria',
+    'Iceland',
+    'Brazil',
+    'Switzerland',
+    'Serbia',
+    'Costa Rica',
+    'Sweden',
+    'Mexico',
+    'Korea Republic',
+    'Germany',
+    'Belgium',
+    'England',
+    'Tunisia',
+    'Panama',
+    'Colombia',
+    'Japan',
+    'Senegal',
+    'Poland'
+    ]
+nastêpnie:
+
+losowo wymieszaj kolejnoœæ dru¿yn
+
+utwórz zmienn¹ groupNumber i przypisz jej wartoœæ 0
+
+wykonaj czynnoœæ tyle razy ile jest pañstw na liœcie countries:
+
+je¿li numer pañstwa jest podzielny przez 4 (reszta z dzielenia modulo 4 jest równa 0) to:
+
+zwiêksz numer grupy o 1
+
+wyœwietl napis "----Grupa X----"
+
+ka¿dorazowo wyœwietlaj wylosowany kraj
+
+Jak s¹dzisz, czy w Twojej konfiguracji grup Polska mia³aby wiêksze szanse?

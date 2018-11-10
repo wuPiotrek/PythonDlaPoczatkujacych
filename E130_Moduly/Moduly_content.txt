@@ -1,0 +1,60 @@
+Modu³y - LAB
+Sekcja 8, wyk³ad 130
+Masz nastêpuj¹ce dane wejœciowe:
+
+inputdata = [0,1,2,3,5,8,13,21,34,55,89]
+factortable = [0,0.01,0.02, 0.03,0.05,0.08,0.13,0.21,0.34,0.55,0.89]
+ZADANIE 1
+
+Za³aduj modu³ math
+
+Wyœwietl informacjê o iloœci elementów w obu listach
+
+Napisz instrukcjê if, która:
+
+-jeœli liczba elementów na obu listach jest taka sama, to rozpocznie przetwarzanie danych, 
+które opiszemy dalej (na razie wystarczy np wyœwietliæ napis "ok")
+
+-jeœli liczba elementów nie jest zgodna wyœwietli informacjê 
+"inputdata and factortable need to have equal number of elements"
+
+Ci¹g dalszy skryptu piszesz w pierwszej czêœci polecenia if
+
+Napisz pêtlê, która przechodzi przez wszystkie elementy listy input  data
+
+Ci¹g dalszy piszesz w tej pêtli
+
+wylicz wartoœæ minvalue, która ma wynosiæ: 
+<wartoœæ n-tego elementu z inputdata> - <wartoœæ n-tego elementu z factortable> * <wartoœæ n-tego elementu z inputdata>
+oraz wartoœæ maxvalue, która ma wynosiæ:
+<wartoœæ n-tego elementu z inputdata> + <wartoœæ n-tego elementu z factortable> * <wartoœæ n-tego elementu z inputdata>
+
+Wyœwietl wyliczone wartoœci
+
+Wyznacz liczby 
+mininteger, która ma byæ najwiêksz¹ liczb¹ ca³kowit¹ mniejsz¹ od minvalue (funkcja floor)
+oraz
+maxinteger, która ma byæ najmniejsz¹ liczb¹ ca³kowit¹ wiêksz¹ of maxVALUE (funkcja ceil)
+
+Wyœwietl liczby: mininteger, n-ty element listy inputdata i maxinteger
+
+
+ZADANIE 2
+
+Za³aduj modu³ random
+
+Napisz pêtlê, która tak jak poprzednio wyznaczy wartoœci minvalue oraz maxvalue, ale tym razem nie chcemy korzystaæ 
+z danych znajduj¹cych siê w factortable. Zamiast tych wartoœci wygeneruj liczby losowe z zakresu <0,1>
+
+Wskazówka - mo¿esz rozpocz¹æ od poprzedniego skryptu, tylko usuñ instrukcjê if i zamieñ odwo³ania 
+do factortable[i] funkcj¹ random.random()
+
+
+
+ZADANIE 3
+
+Z modu³u datetime za³aduj typ datetime.
+
+Wyœwietl datê dzisiejsz¹
+
+Wyœwietl datê dzisiejsz¹ tak, aby pokaza³ siê tylko rok-miesiac-dzieñ

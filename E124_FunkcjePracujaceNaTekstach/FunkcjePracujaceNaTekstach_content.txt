@@ -1,0 +1,35 @@
+Funkcje pracuj¹ce na tekstach - interpretacja wiersza - LAB
+Sekcja 8, wyk³ad 124
+Kryptografia kojarzy siê z informatyk¹ i matematyk¹, tymczasem Czes³awowi Mi³oszowi 
+przypisuje siê autorstwo wiersza "Run¹ w ³unach..." 
+(wiêcej szczegó³ów: http://www.wilnoteka.lt/tresc/jak-milosz-wykiwal-stalina)
+
+Ten sam wiersz czytany w odpowiedni sposób albo wychwala Stalina, Armiê Czerwon¹, 
+Rosjê i Kreml, albo przepowiada ich rych³y upadek. Napiszemy program zmieniaj¹cy znaczenie wiersza:
+
+1. Zadeklaruj zmienn¹ poem (a przy okazji przeczytaj wiersz i zwróæ uwagê na jego znaczenie):
+
+poem = '''1.Run¹ i w ³unach sp³on¹ po¿arnych 
+Krzy¿e koœcio³ów, krzy¿e ofiarne 
+I w bezpowrotnym zgubi siê szlaku 
+W lechickiej ziemi Orze³ Polaków. 
+2.O, jasne s³oñce- wodzu Stalinie! 
+Niech s³awa twoja nigdy nie zginie 
+Niechaj jak or³y powiedzie z gniazda 
+Rosja i z Kremla p³on¹ca gwiazda. 
+3.Na ziemskim globie flagi czerwone 
+Bêd¹ na wiatrach gra³y jak dzwony 
+Czerwona Armia i wódz jej Stalin 
+Odwiecznych wrogów na zawsze obali! 
+4.Zaæmisz siê rych³o w czarnej godzinie 
+Polsko- Twe córy i syny, 
+Wiara i ka¿dy krzy¿ na mogile, 
+U stóp am leg¹ w prochu i pyle! '''
+2. Do zmiennej lines zapisz wynik rozbicia napisu poem ze wzglêdu na znak enter czyli "\n".
+
+3. Napisz pêtlê for wyœwietlaj¹c¹ linijê pierwsz¹, dziewi¹t¹, drug¹, dziesi¹t¹, trzeci¹, 
+jedenast¹ itp. Pisz¹c pêtlê for pamiêtaj o tym ¿e tak na prawdê mówimy  o linijkach 0,8,1,9,2,10...
+
+4. Przeczytaj wygenerowany wiersz
+
+Prawda, ¿e jêzyk polski jest ciekawym przedmiotem?

@@ -1,0 +1,20 @@
+Modu³ time i calendar - LAB
+Sekcja 8, wyk³ad 127
+1. Zaimportuj modul time
+
+2. Wyœwietl czas (datê i godzinê) w postaci Unix Epoche (skorzystaj z metody time)
+
+3. Wyœwietl czas (datê i godzinê) w postaci czytelnej dla cz³owieka. W tym celu z³ó¿ metodê localtime z metod¹ time
+
+4. Zaimportuj modu³ calendar
+
+5. Ka¿dy z nas ma swoje wa¿ne daty: datê urodzenia swoj¹, dziewczyny/ch³opaka, dziecka, data przyjêcia do pierwszej pracy, 
+data zakoñczenia podstawówki itp. Wyœwietl miesi¹c zawieraj¹cy t¹ datê
+
+6. Zmieñ sposób wyœwietlenia daty tak, aby niedziela by³a pierwszym dniem tygodnia
+
+7. Wyœwietl miesi¹c z wa¿n¹ dla Ciebie dat¹ ponownie
+
+8. SprawdŸ czy rok 2000 by³ przestêpny
+
+9. Wyœwietl kalendarz za rok 2019 i zobacz czy uk³ad œwi¹t Bo¿ego Narodzenia wygl¹da atrakcyjnie czy nie

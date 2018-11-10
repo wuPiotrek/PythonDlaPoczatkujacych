@@ -1,0 +1,38 @@
+Modu³ math - LAB
+Sekcja 8, wyk³ad 115
+1. Zaimportuj modu³ math
+
+2. Oto wzory pozwalaj¹ce na wykonanie konwersji stopni na radiany i radianów na stopnie:
+
+1° = (? * rad)/180   
+1 rad = 180°/?   
+3. Zadeklaruj zmienn¹ degree i przypisz jej wartoœæ 360. Wylicz i wyœwietl ile to jest 360  stopni
+
+4. Zmieñ wartoœæ zmiennej degreee na 45 stopni i powtórz obliczenia
+
+5. ... ale modu³ math ma funkcjê radians, która wykonuje konwersjê stopni na radiany! 
+Porównaj wyniki zwracane przez Twoje obliczenia z obliczeniami funkcji radians.
+
+6. Pizzeria oferuje pizze:
+
+small - promieñ 22 cm, cena, 11.50
+
+big - promieñ 27 cm, cena 15.60
+
+family - promieñ 38cm, cena 22.00
+
+Zadeklaruj zmienne small_pizza_r, big_pizza_r, family_pizza_r oraz small_pizza_price, 
+big_pizza_price, family_pizza_price i zapisz w nich w/w wartoœci.
+
+7. Oblicz pole powierzchni pizz w metrach kwadratowych
+
+8. Wyznacz cenê metra kwadratowego pizzy small, big i family
+
+9. Zobacz jakie inne funkcje s¹ dostêpne w module math. Mo¿esz w tym celu odwiedziæ stronê
+
+https://docs.python.org/2/library/math.html
+
+lub wykonaæ polecenie:
+
+math_ls = dir(math) 
+print(math_ls)

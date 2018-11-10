@@ -1,0 +1,45 @@
+Korzystanie z modu³ów - LAB
+Sekcja 8, wyk³ad 112
+Oto lista wyników konkursu Eurowizja 2018:
+
+percent = [2.606255012,1.222935044,1.283079391,3.628708901,6.856455493,4.911788292,
+
+           2.886928629,0.781876504,0.962309543,2.265437049,6.816359262,3.688853248,
+
+           3.468323978,5.633520449,4.530874098,1.984763432,0.922213312,3.327987169,
+
+           4.190056135,5.493183641,1.864474739,10.60545309,2.425821973,2.726543705,
+
+           8.740978348,6.174819567]
+
+W statystyce mo¿na pos³ugiwaæ siê pojêciem mediany. Mediana to "wartoœæ œrodkowa". 
+Dok³adnie po³owa elementów zbioru ma byæ mniejsza od mediany i dok³adnie po³owa 
+elementów ma byæ wiêksza od mediany. Z wyliczeniem mediany nie ma problemu je¿eli 
+iloœæ elementów zbioru jest nieparzysta. Jeœli iloœæ elementów zbioru jest parzysta, 
+to przyjmuje siê, ¿e mediana jest równa œredniej wartoœci znajduj¹cych siê w œrodku zbioru.
+
+
+Nasz zbiór ma 26 elementów, co jest liczb¹ parzyst¹. Bêdziemy szukaæ wartoœci, która 
+znajdzie siê miêdzy 13, a 14 elementem zbioru po posortowaniu (a dok³adniej œredniej z elementu 13-go i 14-go) .
+
+Mamy te¿ do dyspozycji funkcje median_low, która zwróci wartoœæ elementu 13-go i funkcjê 
+median_high, która zwróci wartoœæ elementu 14-go.
+
+Najpierw posortuj listê i wyœwietl j¹.
+
+Teraz spóbuj wywo³aæ metodê median przekazuj¹c do niej jako argument listê percent. 
+(powinien pojawiæ siê komunikat o b³êdzie)
+
+Podobnie wywo³uje siê metodê median_low i median_high (ale tu równie¿ bêdzie b³¹d)
+
+Zaimportuj modul statistics
+
+Wylicz median, median_low i median_high, poprzedzaj¹c nazwy funkcji s³owem "statistics" 
+i kropk¹ (teraz wszystko powinno zadzia³aæ, bo modu³ jest zaimportowany)
+
+Zaimportuj do sesji pythona wszystkie funkcje tak, aby nie trzeba by³o ich poprzedzaæ 
+nazw¹ modu³u
+
+Wywo³aj metody median, median_low i median_high bez poprzedzania ich nazw¹ modu³u 
+(teraz wszystko powinno zadzia³aæ, bo funkcje z modu³u statistics zosta³y zaimportowane 
+bezpoœrednio do nazw rozpoznawanych przez python)

@@ -1,0 +1,46 @@
+Modu³ random - przyk³ad: KARTY - LAB
+Sekcja 8, wyk³ad 133
+W tym zadaniu zajmiemy siê tasowaniem kart. Kto jako dziecko lubi³ tasowaæ karty? Bo ja nie :) 
+Wybierz sobie jêzyk w jakim wykonasz to zadanie, albo... zrób je po polsku :)
+
+
+1. Zadeklaruj zmienne opisuj¹ce figury kart i kolory:
+
+colors = ['Hearts','Diamonds','Clubs','Spades']
+
+figures = ['Ace','King','Queen','Jack','10','9']
+
+2. Zadeklaruj zmienn¹ allCards jako pust¹ listê
+
+3. Napisz zagnie¿d¿on¹ pêtlê, która przechodzi przez colors i figures i dodaje do allCards napis 
+bêd¹cy po³¹czniem nazwy koloru i figury
+
+4. Wyœwietl allCards - zauwa¿, ¿e porz¹dek kart jest wg kolorów i figur
+
+5. Zaimportuj modu³ random
+
+6. Wymieszaj karty znajduj¹ce siê w zmiennej allCards. Wyœwietl potasowane karty
+
+7. Pora rozdaæ karty graczom. Zrobimy to na 2 sposoby. Ale najpierw zadeklaruj puste listy player1 i player2
+
+8. Sposób pierwszy:
+
+Do zmiennej max przypisz wartoœæ okreœlaj¹c¹ d³ugoœæ listy allCards
+
+Napisz pêtlê sterowan¹ przez zmienn¹ i zmieniaj¹c¹ siê od zera do max-1, a w tej pêtli:
+
+je¿eli i jest parzyste - dodaj element allCards[i] do listy player1
+
+je¿eli i jest nieparzyste - dodaj element allCards[i] do listy player2
+
+Wyœwietl karty gracza 1 i 2
+
+9. Sposób drugi - poprzednie rozwi¹zanie nawi¹zuje do tego w jaki sposób rozdajemy karty do gry. Ale skoro karty 
+i tak s¹ wymieszane to w przypadku 24 kart mo¿na by pierwszych 12 daæ pierwszemu graczowi, a pozosta³e 12 drugiemu. 
+Dlatego: nie korzystaj¹c z pêtli:
+
+przepisz do player1 elementy z allCards od 0 do 11
+
+przepisz do player2 elementy z allCards od 12 do 23
+
+wyœwietl karty obu graczy

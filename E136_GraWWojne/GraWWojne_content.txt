@@ -1,0 +1,90 @@
+Pêtle - gra w wojnê - LAB
+Sekcja 8, wyk³ad 136
+*** to zadanie jest nieco trudniejsze - jeœli nie podejmujesz siê samodzielnego rozwi¹zania, 
+spróbuj przynajmniej porównaæ opis zadania z rozwi¹zaniem, ale oczywiœcie zachêcam do rozwi¹zywania - jak siê uda - satysfakcja murowana***
+
+W tym æwiczeniu zaimplementujemy karcian¹ grê w wojnê. Jeœli ktoœ nie pamiêta zasad: https://pl.wikipedia.org/wiki/Wojna_(gra_karciana)
+
+Na razie skorzystamy z opcji "pokój", tzn. je¿eli obaj gracze maj¹ tak¹ sam¹ kartê, to karty te wracaj¹ do graczy na dó³ ich talii.
+
+Zacznijmy od drobnego przygotowania. Pamiêtasz co to s³ownik? Tworzymy go z wykorzystaniem nawiasów klamrowych, np
+
+aCard = {"Figure":"King", "Power":12}
+print(aCard)
+print(aCard['Figure'])
+print(aCard['Power'])
+daje w wyniku:
+
+{'Figure': 'King', 'Power': 12}
+King
+12
+W definicji karty mamy teraz 2 informacje. Figurê karty - tutaj "King" i jej moc - tutaj 12. 
+Kiedy chcesz siê dowiedzieæ tylko o figurze lub tylko o mocy karty stosujesz notacjê
+
+aCard['Figure']
+aCard['Power']
+Dodatkowo, jeœli chcesz dodaæ now¹ w³aœciwoœæ karty, np Color, to mo¿esz to zrobiæ tak:
+
+aCard['Color'] = 'Heart'
+print(aCard['Color'])
+Po tej powtórce zacznijmy zadanie! Na wejœciu masz nastêpuj¹ce listy:
+
+colors = ['Hearts','Diamonds','Clubs','Spades']
+figures = [
+    {'Figure':'Ace',  'Power':14},
+    {'Figure':'King', 'Power':13},
+    {'Figure':'Queen','Power':12},
+    {'Figure':'Jack', 'Power':11},
+    {'Figure':'10',   'Power':10},
+    {'Figure':'9',    'Power':9}]
+S¹ one bardzo podobne do listy z poprzednego zadania, tylko teraz elementami listy figures s¹ s³owniki.
+
+1. Korzystaj¹c z rozwi¹zania poprzedniego LAB-a napisz zagnie¿d¿on¹ pêtlê, która
+
+w zmiennej allCards zapisz pust¹ listê
+
+dla ka¿dego koloru z listy colors
+
+i dla ka¿dej figury z listy figures
+
+zapamiêta w zmiennej aCard figurê (jest to s³ownik) - uwaga przepisuj¹c wartoœæ skorzystaj z metody copy, 
+która rzeczywiœcie tworzy kopiê obiektu (  aCard = f.copy()  )
+
+do s³ownika aCard doda w³aœciwoœæ 'Color' o wartoœci w tej chwili przetwarzanego koloru
+
+obiekt aCard dodaj do listy allCards
+
+2. Zaimportuj modu³ random i potasuj karty. Mo¿esz je na tym etapie wyœwietliæ
+
+3. Utwórz puste listy player1 i player2 i wybran¹ przez siebie metod¹ daj im równ¹ iloœæ kart z allCards
+
+4. Znowu mo¿esz wyœwietliæ karty obu graczy
+
+5. Poniewa¿ gra w wojnê trwa tak d³ugo, a¿ jeden z graczy zostanie bez kart, to napisz pêtlê while, która 
+bêdzie siê wykonywaæ tak d³ugo jak d³ugo ka¿dy z graczy ma karty
+
+6. Korzystaj¹c z metody pop():
+
+w zmiennej card1 zapisz kartê pobran¹ z listy player1
+
+w zmiennej card2 zapisz kartê pobran¹ z listy player2
+
+7. Porównaj w³aœciwoœæ 'Power' dla card1 i card2, nastêpnie:
+
+je¿eli karty maj¹ jednakow¹ moc, zwróæ je na koniec listy z kartami graczy:
+
+card1 wraca na koniec player1
+
+card2 wraca na koniec player2
+
+je¿eli card1 ma wiêksz¹ moc ni¿ card2, to obie karty dopisz na koñcu player1
+
+je¿eli card2 ma wiêksz¹ moc ni¿ card1, to obie karty dopisz na koñcy player2
+
+Podejmuj¹c wy¿ej opisan¹ decyzjê wyœwietl informacjê o kartach o tym kto wygra³. Mo¿esz dodatkowo wyœwietlaæ 
+iloœæ kart u gracza 1 i 2 lub np. tyle gwiazdek ile kart ma gracz numer 1 - sam zdecyduj
+
+8. Za pêtl¹ ustal kto ma karty i wyœwietl informacjê o tym,  kto wygra³
+
+9. Uruchom skrypt i zobacz jak komputer siê bawi. Z opcj¹ pokój rozgrywki mog¹ nigdy siê nie skoñczyæ... 
+wiêc w razie czego pamiêtaj, ¿e wykonanie skryptu mo¿esz przerwaæ naciskaj¹c CTRL+C

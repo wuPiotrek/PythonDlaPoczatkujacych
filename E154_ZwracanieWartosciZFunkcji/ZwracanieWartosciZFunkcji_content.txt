@@ -1,0 +1,23 @@
+Zwracanie wartoœci z funkcji - LAB
+Sekcja 9, wyk³ad 154
+ZADANIE 1
+
+
+
+Nadal pracujemy nad tymi samymi funkcjami, co poprzednio. Zaczynamy od funkcji PrintAnimal. 
+Nale¿y zwróciæ informacjê o tym czy obrazek zosta³ wyœwietlony, czy nie:
+
+Je¿eli przekazano poprawny parametr i obrazek zosta³ wyœwietlony, nale¿y zróciæ wartoœæ True
+
+Je¿eli przekazano niepoprawny parametr i obrazek nie zosta³ wyœwietlony, nale¿y zwróciæ Fals
+
+Przetestuj dzia³anie funkcji po zmianie
+
+
+
+ZADANIE 2
+
+
+
+Teraz modyfikujemy funkcjê DaysToEndOfYear. Iloœæ dni do Sylwestra nie ma byæ wyœwietlana, 
+ale zamiast tego zwracana. Przetestuj dzia³anie funkcji

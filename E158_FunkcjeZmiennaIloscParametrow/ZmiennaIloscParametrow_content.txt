@@ -1,0 +1,24 @@
+Funkcje - zmienna iloœæ parametrów - LAB
+Sekcja 9, wyk³ad 158
+ZADANIE 1
+
+Nadal poprawiamy znane Ci funkcje. Zaczynamy od PrintAnimal.
+
+Zmieñ definicjê funkcji tak, aby mo¿na by³o przekazaæ zmienn¹ iloœæ nazw zwierz¹t, 
+które maj¹ byæ narysowane. Na tym etapie rezygnujemy ze zwracania wartoœci oraz wartoœci domyœlnej. 
+Po zmianach przetestuj dzia³anie funkcji przekazuj¹c po kilka nazw zwierz¹t jako parametr 
+(wybieraj spoœród tych zdefiniowanych w funkcji, jak i niepoprawnych)
+
+
+
+ZADANIE 2
+
+A teraz kolej na DaysToEndOfYear:
+
+zmieñ parametr tak, aby przyjmowa³ wiele dat (uwaga funkcja bêdzie przyjmowaæ daty, a nie osobne wartoœci rok/miesi¹c/dzieñ)
+
+dla ka¿dej daty z parametrów ma zostaæ wyœwietlona informacja o dacie i iloœci dni do Sylwestra
+
+usuñ czêœæ funkcji odpowiadaj¹c¹ za zwracanie wartoœci
+
+przetestuj dzia³anie funkcji przekazuj¹c ró¿n¹ iloœæ argumentów

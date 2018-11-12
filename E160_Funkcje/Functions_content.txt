@@ -1,0 +1,58 @@
+Funkcje - LAB
+Sekcja 9, wyk³ad 160
+Budujemy modu³ s³u¿¹cy do obliczeñ na ci¹gach geometrycznych
+
+ZADANIE 1
+
+Zaimportuj modu³ math
+
+Przygotuj funkcjê GiveGeomSeqElement, która:
+-przyjmuje 3 parametry a1 - o domyœlnej wartoœci  2, która oznacza pierwszy element ci¹gu, factor - 
+o domyœlnej wartoœci 2, która oznacza wspó³czynnik ci¹gu geometrycznego, index o domyœlnej wartoœci 2, 
+która oznacza  który element ci¹gu ma byæ wyliczony
+-dodaj do funkcji komentarz, który opisze co robi ta funkcja
+-wylicz wartoœæ ci¹gu. Odpowiedni wzór znajdziesz np tu: https://pl.wikipedia.org/wiki/Ci%C4%85g_geometryczny
+
+Wylicz wartoœæ 64 elementu ci¹gu geometrycznego, którego pierwszym elementem jest 1 a wspó³czynnik wynosi 2
+
+ZADANIE 2
+
+Przetestuj dzia³anie funkcji. Napisz pêtlê for, która wyznaczy i wyœwietli elementy a1, a2, a3,...a10 dla 
+ci¹gu geometrycznego o pierwszym wyrazie równym 3, wspó³czynniku 2
+
+Wskazówki:
+-zadeklaruj a1=3, factor=2 i maxindex=10
+-napisz pêtlê for, gdzie wartoœæ steruj¹ca pêtli nazywa siê i i zmienia siê od 1 do maxindex
+-dla ka¿dej wartoœci wyliczy wartoœæ elementu korzystaj¹c z funkcji 
+
+ZADANIE 3
+
+Przygotuj funkcje GiveFactorForGeomSeq, która wyznaczy wartoœæ wspó³czynnika gdy znane s¹ 2 kolejne wyrazy ci¹gu.
+
+Wskazówki:
+-Funkcja ma mieæ 2 parametry term i nextterm bez wartoœci domyœlnej
+-dodaj komentarz o funkcji
+-Aby uzyskaæ wartoœæ podziel nextterm przez term i zwróæ wynik
+
+Przetestuj dzia³anie funkcji dla 12 i 24
+
+ZADANIE 4
+
+Utwórz funkcjê GiveSumOfNElementsGeomSeq, która wyznaczy sumê pierwszych wyrazów ci¹gu.
+
+Funkcja ma:
+-przyj¹æ parametr a1 o domyœlnej wartoœci 2, która oznacza pierwszy wyraz ci¹gu, factor o domyœlnej wartoœci 2, 
+która oznacza wspó³czynnik ci¹gu i n oznaczaj¹ce ile pierwszych elementów ci¹gu ma byæ dodanych. Domyœlna wartoœæ tego praramertu to 2
+-wzór na sumê znajdziesz pod adresem: https://pl.wikipedia.org/wiki/Ci%C4%85g_geometryczny
+
+Przetestuj dzia³anie funkcji wyliczaj¹c sumê dla ci¹gu o pierwszym elemencie równym 2, wspó³czynnikiem 3 dla pierwszych 4 elementów
+
+ZADANIE 5
+
+Przenieœ wszystkie funkcje i linijkê importuj¹c¹ modu³ math do nowego pliku. Zapisz go pod nazw¹ geom.py
+
+W pliku skryptu zaimportuj  modu³ geom
+
+Zmieñ instrukcje wywo³uj¹ce funkcje, aby korzysta³y z funkcji modu³u (dodaj prefix geom. )
+
+Uruchom skrypt i przetestuj funkcje, które zostan¹ zaimportowane z modu³u geom.

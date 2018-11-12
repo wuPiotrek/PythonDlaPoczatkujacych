@@ -1,0 +1,86 @@
+Parametry funkcji - LAB
+Sekcja 9, wyk³ad 148
+ZADANIE 1
+
+W tym zadaniu zmodyfikujemy funkcjê z wczeœniejszego laboratorium. Poni¿ej znajdziesz moje propozycje trzech funkcji.
+Ka¿da z nich robi³a inn¹ rzecz, ale wszystkie s¹ do siebie podobne. Zast¹pimy je jedn¹ funkcj¹, 
+która przyjmie parametr i w zale¿noœci od tego parametru wyœwietli inny "obrazek":
+
+zadeklaruj funkcjê PrintAnimal
+
+zdefiniuj przekazywany parametr o nazwie animal
+
+je¿eli animal to 'cat', to wyœwietl obrazek kota
+
+je¿eli animal to 'bear', to wyœwietl obrazek misia
+
+je¿eli animal to 'bat', to wyœwietl obrazek nietoperza
+
+a je¿eli wartoœæ jest zupe³nie inna, to wyœwietl komunikat: "Cannot print '%s'. Correct values for the parameter are: 
+cat, bear, bat", zastêpuj¹c %s napisem przekazanym w animal
+
+Przetestuj wywo³anie funkcji przekazuj¹c ró¿ne wartoœci argumentu, czasami przez pozycjê, a czasami przez nazwê. 
+Przekazuj poprawne i niepoprawne parametry (ale póki co tylko napisy - nie np. liczby)
+
+Oto funkcje do przeróbki:
+
+def PrintCat():
+    # this function prints a cat ascii-art
+    txt = r'''
+|\---/|
+| o_o |
+ \_^_/'''
+    print(txt)
+    return
+ 
+def PrintBear():
+    # this function prints a bear ascii-art
+    txt = r'''
+/  \.-"""-./  \
+\    -   -    /
+ |   o   o   |
+ \  .-'"'-.  /
+  '-\__Y__/-'
+     `---`'''
+    print(txt)
+    return
+ 
+def PrintBat():
+    # this function prints a bat ascii-art
+    txt = r'''
+   /\                 /\
+  / \'._   (\_/)   _.'/ \
+ /_.''._'--('.')--'_.''._\
+ | \_ / `;=/ " \=;` \ _/ |
+  \/ `\__|`\___/`|__/`  \/
+          \(/|\)/  
+     '''
+    print(txt)
+    return
+ZADANIE 2
+
+
+
+Oto kolejna przeróbka ju¿ istniej¹cej funkcji. W poprzednim laboratorium pisaliœmy funkcjê obliczaj¹c¹ ile dni zosta³o
+ do Sylwestra od dnia dzisiejszego. Zmieñ funkcjê tak, aby:
+
+przyjmowa³a parametry: year, month, day
+
+w pierwszej kolejnoœci konwertuje przekazane liczby na datê
+
+oblicza ile dni musi min¹æ od tej daty do najbli¿szego Sylwestra
+
+(na tym etapie nie sprawdzamy poprawnoœci daty)
+
+przetestuj dzia³anie funkcji z ró¿nymi parametrami przekazuj¹c argumenty przez wartoœæ lub przez nazwê.
+ Podczas przekazywania parametrów przez nazwê zmieniaj kolejnoœæ parametrów np rok/miesi¹c/dzieñ lub dzieñ/miesi¹c/rok
+
+Oto funkcja do przeróbki:
+
+def DaysToEndOfYear():
+    from datetime import date
+    date_today = date.today()
+    current_year = date_today.year
+    date_end_year = date(current_year, 12, 31)
+    delta = date_end_year - date_today
+    print(delta.days)

@@ -1,0 +1,29 @@
+Funkcje - przyk³ad - ile dni do koñca roku - LAB
+Sekcja 9, wyk³ad 145
+Kto siê lubi bawiæ w Sylwestra? Rêka do góry!
+
+Przygotujmy funkcjê, która wyœwietli ile dni zosta³o do koñca roku. 
+Jeœli wiesz jak to zrobiæ to nie czytaj dalej, a jeœli chcesz pewnych wskazówek - oto one:
+
+najpierw napisz sktypt, potem skonwertujesz go do funkcji
+
+zaimportuj z modu³u datetime, namespace date
+
+korzystaj¹c z funkcji today() z modu³u date zapisz w zmiennej date_today datê dzisiejsz¹
+
+korzystaj¹c z odpowiedniej w³aœciwoœci zmiennej date_today pobierz rok z tej daty do zmiennej current_year
+
+do zmiennej date_end_year zapisz datê zbudowan¹ z current_year, 12 (grudzieñ) i 31 (Sylwester). 
+Skorzystaj z metody date, do której przeka¿esz te zmienne
+
+do zmiennej delta zapisz ró¿nicê miêdzy date_end_year i date_today
+
+wyœwietl iloœæ dni z obiektu delta. Skorzystaj z odpowiedniej w³aœciwoœci
+
+sprawdŸ dzia³anie skryptu
+
+skonwertuj skrypt na funkcjê
+
+sprawdŸ dzia³anie funkcji wywo³uj¹c j¹
+
+No to du¿o jeszcze do Sylwestra?

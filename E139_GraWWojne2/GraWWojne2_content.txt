@@ -1,0 +1,107 @@
+Pêtle - gra w wojnê cz.2 - LAB
+Sekcja 8, wyk³ad 139
+*** to zadanie jest nieco trudniejsze - jeœli nie podejmujesz siê samodzielnego rozwi¹zania, 
+spróbuj przynajmniej porównaæ opis zadania z rozwi¹zaniem, ale oczywiœcie zachêcam do 
+rozwi¹zywania - jak siê uda - satysfakcja murowana***
+
+
+
+Zaczynamy od programu stworzonego w poprzednim przyk³adzie. Zamiast opcji "pokój" 
+oprogramujemy opcjê "wojna". Je¿eli obaj gracze maj¹ tak¹ sam¹ kartê, to:
+
+wyk³adaj¹ jeszcze jedn¹ kartê, która o niczym nie decyduje
+
+wyk³adaj¹ kolejn¹ kartê i w zale¿noœci czyja karta jest wiêksza, ten gracz zgarnia wy³o¿one karty
+
+gdyby jednak karty nadal mia³y t¹ sam¹ moc to powtarzamy wy¿ej opisan¹ sekwencjê
+
+gdyby w czasie wojny któremuœ z graczy skoñczy³y siê karty, to ten gracz przegrywa
+
+Poni¿ej propozycja rozwi¹zania ktok po kroku:
+
+1. Gdzieœ trzeba zapamiêtaæ jakie karty s¹ obecnie wy³o¿one. Dlatego zaraz po pobraniu kart 
+w pêtli while utwórz pust¹ listê o nazwie stock
+
+2. Teraz zupe³nie mo¿esz wykasowaæ zawartoœæ pierwszego wyra¿enia if, bo tu wszystko siê zmieni
+
+3. Poniewa¿ wojna mo¿e siê sk³adaæ z kilku ruchów napisz pêtlê while, która bêdzie dzia³aæ tak 
+d³ugo, jak d³ugo moc card1 i card2 s¹ sobie równe.
+
+w tej pêtli wyœwietl informacjê o tym, ¿e toczy siê wojna i jak¹ moc maj¹ obie karty
+
+dodaj obie karty do listy stock
+
+Teraz sprawdzimy, czy któremuœ z graczy nie skoñczy³y siê karty:
+
+Je¿eli gracz 1 ma mniej ni¿ 2 karty, to
+
+wszystkie karty ze stock nale¿y dopisaæ do player2
+
+wszystkie karty z player1 nale¿y dopisaæ do player2
+
+lista player1 ma siê staæ pusta
+
+wewnêtrzn¹ pêtlê mo¿na przerwaæ poleceniem break
+
+W przeciwnym razie, je¿eli gracz 2 ma mniej ni¿ 2 karty, to:
+
+wszystkie karty ze stock nale¿y dopisaæ do player1
+
+wszystkie karty z player2 nale¿y dopisaæ do player1
+
+lista player2 ma siê staæ pusta
+
+W przeciwnym razie, czyli kiedy obaj gracze maj¹ wystarczaj¹c¹ iloœæ kart:
+
+nale¿y do card1 pobraæ kolejn¹ kartê z player1
+
+nale¿y do card2 pobraæ kolejn¹ kartê z player2 (to te karty, które k³adzie siê na stosie, 
+ale króre niczego nie zmieniaj¹)
+
+obie karty nale¿y dopisaæ do listy stock
+
+nale¿y do card1 pobraæ kolejna kartê z player1
+
+nale¿y do card2 pobraæ kolejn¹ kartê z player2 (to nowe decyduj¹ce o losach wojny karty)
+
+W przeciwnym razie do warunku while, czyli gdy karty nie s¹ równe: (****)
+
+Jeœli card1 jest mocniejsza ni¿ card2
+
+do stock dodaj card1 i card2
+
+dopisz do player1 zawartoœæ stock
+
+W przeciwnym razie
+
+do stock dodaj card1 i card2
+
+dopis do player2 zawartoœæ stock
+
+4. Mo¿esz jeszcze w krytycznych miejscach dodaæ komunikaty o tocz¹cej siê wojnie i ewentulanych wygranych, 
+przegranych i remisach. Bêdzie to przydatne jeœli coœ idzie nie tak i trzeba bêdzie zrozumieæ decyzje programu
+
+5. Uruchom program. Jeœli wszystko posz³o dobrze, teraz rozgrywki powinny siê koñczyæ szybciej
+
+
+
+----------------------
+
+(****)  zauwa¿ jak ³adnie mo¿na tu skorzystaæ z else uruchamianego dla while. Polecenie break wykonywane 
+w przypadku braku kart u któregoœ z graczy pomija ten blok else i w³aœciwie od razu przeskakujemy 
+do pêtli zewnêtrznej, która sprawdza, czy któryœ z graczy nie zosta³ ju¿ bez kart. Jeœli jednak pêtla 
+przerwie siê z powodu ró¿nych kart na stosie, to wtedy blok else siê wykona i po prostu oddamy karty ze stosu jednemu z graczy.
+
+Mo¿esz przestudiowaæ dzia³anie tego kodu, z w³¹czonym lub wy³¹czonym komentarzem:
+
+i=0
+ 
+while i < 10:
+    print(i)
+   # if i == 3:
+    #    break
+    i+=1
+else:
+    print('else')
+ 
+print('end')

@@ -1,0 +1,37 @@
+Funkcje wprowadzenie - LAB
+Sekcja 9, wyk³ad 142
+Przygotowujesz sktypty, które nie tylko wykonaj¹ pewne czynnoœci, 
+ale dodatkowo wygeneruj¹ raport, który bêdzie oznaczony logo firmy. 
+Naszym logo bêdzie kot, miœ lub nietoperz.
+
+Napisz funkcje:
+
+PrintCat() - wyœwietlaj¹c¹ kota
+
+PrintBear() - wyœwietlaj¹c¹ misia
+
+PrintBat() - wyœwietlaj¹c¹ nietoperza.
+
+Oto dane, które przydadz¹ siê w tym zadaniu:
+
+    txt = r'''
+|\---/|
+| o_o |
+ \_^_/'''
+    txt = r'''
+/  \.-"""-./  \
+\    -   -    /
+ |   o   o   |
+ \  .-'"'-.  /
+  '-\__Y__/-'
+     `---`'''
+    txt = r'''
+   /\                 /\
+  / \'._   (\_/)   _.'/ \
+ /_.''._'--('.')--'_.''._\
+ | \_ / `;=/ " \=;` \ _/ |
+  \/ `\__|`\___/`|__/`  \/
+          \(/|\)/       '''
+
+
+(wiêcej fajnych obrazków znajdzisz np tu: https://www.asciiart.eu/

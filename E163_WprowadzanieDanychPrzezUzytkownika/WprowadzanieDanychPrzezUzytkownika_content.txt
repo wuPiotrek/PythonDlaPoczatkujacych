@@ -1,0 +1,49 @@
+Wprowadzanie danych przez u¿ytkownika - LAB
+Sekcja 10, wyk³ad 163
+Teraz zajmiemy siê rozwi¹zaniem równania kwadratowego. 
+
+
+Przyda siê równie¿ funkcja, która sprawdzi czy liczba jest ca³kowita (funkcja isdecimal() niespecjalnie mi siê podoba, 
+bo jej zdaniem liczby ujemne np. -1 nie jest liczb¹ ca³kowit¹):
+
+def check_int(s):
+    if s[0] in ('-', '+'):
+        return s[1:].isdigit()
+    return s.isdigit()
+
+
+Aby rozwi¹zaæ zadanie nale¿y:
+
+zapytaæ u¿ytkownika o wspó³czynniki a,b ic
+
+jeœli a lub b lub c nie s¹ liczbami ca³kowitymi, to nale¿y wyœwietliæ odpowiedni¹ informacjê i zakoñczyæ skrypt
+
+w przeciwnym razie
+
+nale¿y sprawdiæ czy a == 0
+
+je¿eli tak, nale¿y wyœwietliæ informacjê, ¿e to nie jest równanie kwadratowe i zakoñczyæ skrypt
+
+w przeciwnym razie
+
+nale¿y wyliczyæ deltê
+
+je¿eli delta <0, to nale¿y wyœwitliæ komunikat o braku rozwi¹zañ i zakoñczyæ sktypt
+
+je¿eli delta=0,  to nale¿y wyliczyæ x1, wyœwietliæ wynik i zakoñczyæ skrypt
+
+je¿eli delta>0, to nale¿y wyliczyæ x1 i x2 , wyœwietliæ wynik i zakoñczyæ skrypt
+
+Po napisaniu skryptu przetestuj go z ró¿nym danymi testowymi, np dla a, b i c:
+
+3, 4, 1 - 2 rozwi¹zania:  -1 i -0.33
+
+5, 4, -1 - 2 rozwi¹zania: -1 i 0.2
+
+5, 4, 1 - brak rozwi¹zañ
+
+2, 0, 0 - jedno rozwi¹zanie: 0
+
+0, 3, 4 - komunikat o tym, ¿e a == 0
+
+one, 1,1 - komunikat o tym, ¿e a, b i c musz¹ byæ liczbami ca³kowitymi

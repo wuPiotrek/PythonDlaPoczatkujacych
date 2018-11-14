@@ -4,7 +4,7 @@ Każda lekcja zakończona zadaniami posiada swój katalog. W każdym z katalogó
 
 ## O kursie
 ### Python dla początkujących
-Kurs udostępniony na platformie learningowej [www.Udemy.com)
+Kurs udostępniony na platformie learningowej www.Udemy.com
 #### Autor: Rafał Mobilo
-[https://www.udemy.com/python-dla-poczatkujacych)
+https://www.udemy.com/python-dla-poczatkujacych
 

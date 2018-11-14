@@ -5,6 +5,7 @@ jak najbardziej czytelny aby móc w każdej chwili wrócić do danej lekcji i pr
 
 ## O kursie
 ### Python dla początkujących
+Kurs udostępniony na platformie learningowej [Udemy.com]
 #### Autor: Rafał Mobilo
 [https://www.udemy.com/python-dla-poczatkujacych]
 

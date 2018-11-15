@@ -1,0 +1,62 @@
+Kontrola œcie¿ki do pliku - LAB
+Sekcja 10, wyk³ad 170
+Tym razem otrzymujesz zadanie zautomatyzowania pobierania danych dotycz¹cych zamówieñ kierowanych 
+z aptek do dystrybutora leków. Zamówienia s¹ przesy³ane w postaci plików CSV  i umieszczane w katalogu 
+c:\temp\data_input. Pliki s¹ tam umieszczane przez ró¿ne inne procesy w ci¹gu ca³ego dnia. 
+Codziennie o godzinie 19:00 bêdzie uruchamiany skrypt, który przeniesie te pliki do innego folderu, 
+np c::\temp\yyyy-mm-dd (gdzie yyyy to rok, mm to miesi¹c, a dd to dzieñ z daty dzisiejszej). 
+Potem na tych plikach s¹ wykonywane dalsze operacje, jak np. import danych.
+
+Obecnie skupimy sie na etapie sprawdzenia, czy wszystkie warunki do uruchomienia przetwarzania s¹ spe³nione, tzn.:
+
+czy istnieje katalog wejœciowy
+
+czy istnieje katalog wyjœciowy
+
+czy NIE istnieje katalog odpowiadaj¹cy dzisiejszej dacie
+
+Poniewa¿ w szczególnym przypadku katalogu oznaczonego dat¹ nie uda³oby siê utworzyæ tak¿e wtedy, 
+gdyby istnia³ plik o takiej samej nazwie, to dodatkowo sprawdzimy te¿:
+
+czy NIE istnieje plik odpowiadaj¹cy dzisiejszej dacie
+
+Zaimportuj modu³ os i datetime
+
+W zmiennej data_input_catalog zapamiêtaj œcie¿kê 'c:\temp\data_input'. Pamiêtaj, ¿e znak "\" ma 
+specjalne znaczenie, wiêc jeœli w œcie¿ce ma byæ zapisany rzeczywiœcie znak "\" - musisz u¿yæ jakiegoœ "chwytu")
+
+W zmiennej data_output_catalog zapamiêtaj œcie¿kê 'c:\temp\data_output'
+
+W zmiennej today zapisz dzisiejsz¹ datê
+
+Po³¹cz œcie¿kê znajduj¹c¹ siê w data_input_catalog z napisem w postaci ROK-MIESIAC-DZIEÑ wyliczon¹ 
+w oparciu o  nastêpuj¹ce wyra¿enie (zreszt¹ baaardzo przydatne):
+
+today.strftime("%Y-%m-%d")
+
+Wynik zapisz w zmiennej today_output_catalog
+
+W zmiennej is_input_catalog_ok zapisz wynik testu sprawdzaj¹cego czy katalog data_input_catalog 
+ISTNIEJE i jest katalogiem
+
+W zmiennej is_outpur_catalog_ok zapisz wynik testu sprawdzaj¹cego czy katalog data_output_catalog 
+ISTNIEJE i jest katalogiem
+
+W zmiennej is_today_output_catalog_ok zapisz wynik testu sprawdaj¹cego czy œcie¿ka today_output_catalog 
+NIE ISTNIEJE ani jako plik ani jako katalog
+
+Je¿eli wynik wszystkich 3 wy¿ej wymienionych testów jest poprawny, to wyœwietl komunikat 'Conditions met! 
+We can continue!'
+
+W przeciwnym razie wyœwietl komunikat o b³êdzie, a nastêpnie w zale¿noœci od wartoœci logicznej zmiennych 
+is_...._ok wyœwietl, co dok³adnie jest nie tak (np brak katalogu input lub output itp)
+
+Przetestuj dzia³anie skryptu w ró¿nych warunkach, np.:
+
+wszystko jest ok
+
+brak katalogu wejœciowego lub wyjœciowego (lub obu  na raz)
+
+plik o nazwie odpowiadaj¹cej dzisiejszej dacie istnieje
+
+itp.

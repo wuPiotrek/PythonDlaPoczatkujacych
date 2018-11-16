@@ -1,0 +1,33 @@
+Odczyt danych z pliku - LAB
+Sekcja 10, wyk³ad 172
+W tym zadaniu bêdziemy przetwarzaæ plik orders.csv z zamówieniami z apteki. 
+Zacznij od zapisania w pliku nastêpuj¹cych danych:
+
+Pharma A, Vitamin C,100
+Drugstore XYZ,Penicilin, 20, pills
+Drugstore ABC,Aspirin,60
+Pharma X,Montelukast,10
+Za³ó¿my, ¿e ten tekst zosta³ umieszczony w pliku c:\temp\data_input\orders.csv
+
+Naszym zadaniem jest przeczytaæ ten plik i przetwarzaæ go linijka po linijce. 
+Zamówienie umieszczone w ka¿dej linii sk³ada siê z 3 informacji: nazwa apteki, nazwa leku, iloœæ opakowañ leku. 
+Zdarza siê, ¿e niektóre zamówienia nie s¹ poprawne i zawieraj¹ wiecej wierszy - tutaj wiersz 2. 
+W tym zadaniu przetwarzamy ten plik zupe³nie rêcznie, ale oczywiœcie istniej¹ zdecydowanie lepsze metody 
+na przetwarzanie danych w Pythonie, np. biblioteka PANDAS, której poœwiêci³em inny kurs.
+
+Ale po kolei:
+
+1. W zmiennej file_path zapisz œcie¿kê dostêpu do pliku (uwa¿aj na znaki \)
+
+2. Wybran¹ przez siebie metod¹ otwórz plik i przetwarzaj go  linijka po linijce
+
+3. Ka¿da wczytana linijka koñczy siê znakiem ENTER. Usuñ go.
+
+3. Rozbij linijkê ze wzglêdu na znak przecinka. Wynik (lista pól opisuj¹cych zamówienie) zapisz w zmiennej order
+
+4. Jeœli lista order ma dok³adnie 3 elementy, to: wyœwietl komunikat 'Order from drugstore "%s", item "%s", 
+amount %s' zastêpuj¹c %s kolejnymi elementami listy order
+
+5. Jeœli lista order ma inn¹ iloœæ elementów, to wyœwietl komunikat "Line %s malformed!!!" , zamieniaj¹c %s na zawartoœæ tej linijki
+
+6. Na zakoñczenie wyœwietl informacjê o zakoñczonym przetwarzaniu i zale¿nie od wybranej metody przetwarzania pliku - zamknij plik jeœli trzeba

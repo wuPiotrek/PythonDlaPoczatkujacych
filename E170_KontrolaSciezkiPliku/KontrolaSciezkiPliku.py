@@ -1,3 +1,8 @@
+#################################################
+exNumber = 1
+print("-" * 5, exNumber, "-" * 30)
+# Code:
+
 import os
 import datetime
 
@@ -34,5 +39,4 @@ else:
 
         print('Today catalog/file exists!')
 
-
-
+#################################################

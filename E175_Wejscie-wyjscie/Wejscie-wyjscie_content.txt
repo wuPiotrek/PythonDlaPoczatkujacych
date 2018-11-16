@@ -1,0 +1,44 @@
+Wejœcie-wyjœcie - LAB
+Sekcja 10, wyk³ad 175
+ZADANIE 1
+
+W tym zadaniu napiszesz program, który zapyta u¿ytkownika o adresy www i zapisze je w pliku.
+
+Zaimportuj modu³ os
+Zadeklaruj pust¹ listê webaddresses
+Poproœ u¿ytkownika o wprowadzenie adresu strony www. Wynik zapamiêtaj w zmiennej line
+Napisz pêtlê, która bêdzie siê wykonywaæ tak d³ugo  póki line nie jest puste, a w tej pêtli
+Dodaj line do listy webaddresses i ponownie poproœ u¿ytkownika o wprowadzenie adresu strony www zapisuj¹c j¹ w zmiennej line
+(Kiedy u¿ytkownik bêdzie chcia³ zakoñczyæ wprowadzanie adresów wystarczy, ¿e naciœnie ENTER. W tym przypadku zmienna web
+ addresses bêdzie pusta i pêtla while siê zakoñczy. Na tym etapie bêdziesz ju¿ mieæ listê webaddresses zawieraj¹c¹ wprowadzone
+ przez u¿ytkownika adresy)
+W zmiennej dirname zapamiêtaj œcie¿kê do katalogu bie¿¹cego
+Poproœ u¿ytkownika o wprowadzenie nazwy pliku i wynik zapamiêtaj w zmiennej filename)
+Korzystaj¹c z funkcji os.path.join po³¹cz ze sob¹ dirname i filename zapamiêtuj¹c wynik w filepath
+Otwórz plik znajduj¹cy siê pod œcie¿k¹ filename do zapisu. Zmienna wskazuj¹ca na plik mo¿e nazywaæ siê file
+Dla ka¿dego z adresów znajduj¹cych siê na liœcie webaddresses zapisz ten adres dodaj¹c do niego znak nowej linii w pliku.
+Zamknij plik
+(na tym etapie masz plik, którego zawartoœci¹ s¹ wprowadzone przez u¿ytkownika adresy www)
+ZADANIE 2
+
+W tym zadaniu wczytasz i przeanalizujesz plik utworzony w poprzenim zadaniu
+
+Zaimportuj modu³ os
+Wczytaj od u¿ytkownika œcie¿kê dostêpu do pliku utworzonego w poprzednim zadaniu. Wynik zapisz w zmiennej filename
+Uwaga: œcie¿ka wprowadzona przez u¿ytkownika mog³a wskazywaæ na nieistniej¹cy plik, dlatego napisz pêtlê while, która bêdzie siê
+ wykonywaæ tak d³ugo a¿ u¿ytkownik wprowadzi œcie¿kê do istniej¹cego pliku. Mo¿esz w tym celu korzystaæ z funkcji os.path.isfile
+Je¿eli plik nie istnieje to w pêtli wyœwietl komunikat i poproœ o ponowne wprowadzenie poprawnej œcie¿ki
+(na tym etapie masz wczytan¹ œcie¿kê do istniej¹cego pliku)
+Zadeklaruj zmienn¹ webaddresses, która bêdzie pust¹ list¹
+Otwórz plik wskazywany przez filename na odczyt. Wczytuj zawartoœæ pliku linijka po linijce, zamieniaj w tak wczytanej linii znak 
+koñca linii (\n) na napis pusty i dodawaj wczytane linie do zmiennej webaddresses
+W zale¿noœci od sposobu otwarcia pliku, mo¿e byæ wymagane zamkniêcie pliku
+Dla ka¿dej linijki znajduj¹cej siê na liœcie webaddresses, je¿eli ta linijka koñczy siê na .pl to wyœwietl "adres+...+ jest adresem
+ z Polski" w przeciwnym razie wyœwietl "adres ... nie jest adresem z Polski"
+ZADANIE 3
+
+Zmodyfikuj zadanie 2 tak, ¿eby
+
+polskie adresy zosta³y zapisane do pliku webs_pl.txt a pozosta³e adresy do pliku webs_other.txt
+nowe pliki maj¹ powstaæ w tym samym katalogu co wejœciowy plik wskazany przez u¿ytkownika (skorzystaj z funkcji os.path.dirname)
+zapisuj¹c linie do plików dodawaj do nich znak nowej liniii

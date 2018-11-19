@@ -1,0 +1,33 @@
+Modu³ os - LAB
+Sekcja 10, wyk³ad 166
+Uwaga: w najbli¿szych lekcjach i zadaniach bêdziemy pracowaæ z plikami. 
+Bêdzie znacznie bezpieczniej, jeœli nie bêdziesz wtedy pracowaæ w katalogu systemowym 
+i nie bêdziesz wskazywaæ œcie¿ki do plików systemu operacyjnego. 
+Jeœli coœ  pójdzie nie tak unikniesz w ten sposób uszkodzenia systemu operacyjnego. 
+Najlepiej bêdzie za³o¿yæ sobie specjalny katalog z kilkoma podkatalogami i wkopiowaæ do nich kilka plików. 
+Jeœli utracisz ten katalog, ¿adnych strat nie bêdzie!
+
+
+
+1. Zaimportuj modu³y os i time
+
+2. Poproœ u¿ytkownika o wprowadzenie œcie¿ki dostêpu do katalogu i zapisz pobrany napis w zmiennej dir
+
+3. Jeœli wprowadzony napis nie wskazuje na katalog, wyœwietl komunikat i zakoñcz skrypt
+
+4. W przeciwnym razie poproœ u¿ytkownika o wprowadzenie nazwy pliku i zapisz pobrany napis w zmiennej file
+
+5. Korzystaj¹c z odpowiedniej funkcji modu³u os po³¹cz ze sob¹ katalog z plikiem tworz¹c pe³n¹ œcie¿kê. 
+Wynik zapamiêtaj w zmiennej path
+
+6. Je¿eli plik wskazywany przez path nie istnieje, wyœwietl komunikat i zakoñcz skrypt
+
+7. Wyœwietl informacjê o tym, ¿e poni¿ej bêd¹ wyœwietlane w³aœciwoœci pliku path, a potem wyœwietl:
+
+datê ostatniej modyfikacji
+
+rozmiar w bajtach
+
+informacjê o bi¿¹cym katalogu
+
+œcie¿kê wzglêdn¹ do pliku

@@ -1,0 +1,54 @@
+Obs³uga b³êdu - instrukcja except - LAB
+Sekcja 11, wyk³ad 181
+Wracamy do przyk³adu z zamówieniami dla aptek. Obecnie sktypt potrafi ju¿ obs³u¿yæ b³êdne pozycje zamówieñ, 
+ale robi to w doœæ ogólny sposób - po prostu mówi, ¿e ma problem z konwersj¹ danej linijki, nie wnikaj¹c w to, 
+co siê tam z³ego zadzia³o. Spróbujemy to zmieniæ. Pracujemy nadal z tym samym plikiem, co poprzednio.
+
+Oto skrypt w aktualnej postaci:
+
+
+
+import sys
+ 
+file_path = r'c:\temp\data_input\orders.csv'
+ 
+ 
+with open(file_path,"r") as file:
+ 
+    for line in file:
+ 
+        line = line.replace('\n','')
+        order = line.split(',')
+ 
+        try:
+            pharmacy_name = order[0]
+            item = order[1]
+            amount = int(order[2])
+            print('Order from drugstore "%s", item "%s", amount %d' %
+                      (pharmacy_name, item, amount))
+        except:
+            print("Problem with line %s" % line)
+            print(sys.exc_info()[0])
+ 
+print("Processing finished")
+
+
+1. Uruchom skrypt tak jak jest. Zauwa¿ dwie kategorie b³êdów:
+
+ValueError - zwi¹zany z tym, ¿e konwersja danych w trzeciej kolumnie siê nie udaje
+
+
+IndexError - zwi¹zany z tym, ¿e linijka ma za ma³o danych, po podziale linijki ze wzglêdu na przecinek 
+otrzymujemy np. tylko listê dwuelementow¹, a potem próbujemy siê odwo³aæ do elementu spoza zakresu: orders[2]
+
+2. Dodamy instrukcje rozpoznaj¹ce te dwa przypadki i spróbujemy zasugerowaæ, co administrator powinien 
+sprawdziæ (i poprawiæ) w pliku wejœciowym:
+
+przed linijk¹ except, dodaj now¹ instrukcjê except, która obs³u¿y b³¹d ValueError oraz spowoduje zapamiêtanie 
+informacji o b³êdzie w zmiennej e. Nastêpnie wyœwietl komunikat mówi¹cy o tym, ¿e dosz³o do b³êdu zwi¹zanego z 
+niepoprawn¹ konwersj¹ danych w trzecim polu do typu int. W komunikacie o b³êdzie wyœwietl treœæ linijki z pliku tekstowego, 
+która spowodowa³a b³¹d
+
+dodaj kolejn¹ instrukcjê except, która obs³u¿y b³¹d IndexError oraz spowoduje zapamiêtanie informacji o b³êdzie 
+w zmiennej e. Nastêpnie wyœwietl komunika mówi¹cy o tym, ¿e dosz³o do b³êdu zwi¹zanego z brakiem dostatecznej iloœæi pól. 
+W komunikacie wyœwietl treœæ linijki z pliku tekstowego, która spowodowa³a b³¹d

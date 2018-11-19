@@ -1,0 +1,48 @@
+Obs³uga b³êdów w Python - LAB
+Sekcja 11, wyk³ad 184
+ZADANIE 1
+
+Zaimportuj modu³ os
+
+Przeczytaj od u¿ytkownika informacjê, któr¹ mo¿na zinterpretowaæ jako liczbê, np. zapytaj o
+ akceptowaln¹ cenê zakupu kolejnego kursu na Udemy. Wynik zapamiêtaj w zmiennej line
+
+Przeczytaj od u¿ytkownika œcie¿kê do pliku
+
+Bez ¿adnej dodatkowej kontroli zapisz liniê w pliku o wskazanej œcie¿ce
+
+Przetestuj dzia³anie skryptu podaj¹c œcie¿kê do pliku który mo¿na utworzyæ (np. œcie¿ka do 
+nieistniej¹cego pliku w istniej¹cym katalogu) oraz podaj¹c œcie¿kê, której nie mo¿na utworzyæ
+ (np œcie¿ka do nieistniej¹cego pliku w nieistniej¹cym katalogu). Zauwa¿ jaki b³¹d jest wyœwietlany w drugim przypadku
+
+ZADANIE 2
+
+Zmodyfikuj poprzedni przyk³ad tak, ¿e instrukcje wykonuj¹ce operacje na pliku znajd¹ siê w bloku try
+
+Je¿eli dojdzie do b³edu wyœwietl komunikat "SORRY - WE HAVE AN ERROR"
+
+Wykonaj testy takie jak poprzednio
+
+ZADANIE 3
+
+Dodaj instrukcjê except, która wychwyci b³¹d FileNotFoundError:
+
+W przypadku tego specyficznego b³êdu wyœwietl komunikat "Error opening file". Mo¿esz dodaæ szczegó³owe informacje o b³êdzie
+
+ZADANIE 4
+
+Jako ostatni¹ instrukcjê w bloku try dodaj konwersjê wartoœci zapamiêtanej w zmiennej line na typ int. Zapamiêtaj wynik w zmiennej value
+
+Wyœwietl informacjê "The value saved in file is...."
+
+Przetestuj program na kilka sposobów: wartoœæ która siê konwertuje na liczbê lub nie, œcie¿ka, która istnieje lub nie itp.
+
+ZADANIE 5
+
+Dodaj kolejn¹ instrukcjê except obs³uguj¹c¹ b³¹d ValueError, który mo¿e byæ wygenerowany podczas konwersji line na value.
+
+W przypadku tego b³êdu wyœwietl komunikat "The value entered cannot be converted to a number". Mo¿esz wyœwietliæ wiêcej szczegó³ów o b³êdzie
+
+Dodaj blok else, w którym bêdzie wyœwietlony komunikat "Actions completed successfully"
+
+Przetestuj dzia³anie skryptu generuj¹c ró¿ne b³êdy

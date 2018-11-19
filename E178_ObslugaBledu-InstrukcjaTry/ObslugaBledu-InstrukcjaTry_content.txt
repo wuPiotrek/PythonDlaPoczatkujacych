@@ -1,0 +1,73 @@
+Obs³uga b³êdu - instrukcja try - LAB
+Sekcja 11, wyk³ad 178
+Pamiêtasz przyk³ad, w którym przetwarzaliœmy dane o zamówieniach z aptek? Jeœli nie, to zajrzyj do laboratorium sprzed dwóch lekcji :)
+
+Wczytywaliœmy tam dane z pliku, a potem przetwarzaliœmy linijka po linicje. Ka¿da z linijek zawiera³a informacje 
+o nazwie apteki, nazwie leku i iloœci zamawianego leku.
+
+Ju¿ w poprzednim rozwi¹zaniu zadania spodziewaliœmy siê pewnych problemów i zabezpieczaliœmy siê przed nimi. 
+Gdyby z apteki przysz³o  zamówienie, które nie mia³o dok³adnie 3 póli, to nie przetwarzaliœmy go, ale:
+
+w³aœciwie obecnoœæ dodatkowej notatki w czwartej kolumnie wcale w niczym nie przeszkadza,
+
+mo¿e siê zdarzyæ, ¿e w kolumnie iloœæ, zostanie przes³any tekst, którego nie mo¿na zinterpretowaæ jako liczbê
+
+mo¿e siê zdarzyæ, ze w linijce zabraknie jakiœ kolumny
+
+i wreszcie.... co ca³kiem normalne - to my programiœci mo¿emy pope³niæ jakiœ b³¹d.
+
+Dlatego zajmiemy sie dok³adniej instrukcj¹ przetwarzaj¹c¹ zamówienie.
+
+Umieœæ w pliku tekstowym orders.csv nastêpuj¹cy tekst:
+
+Pharma A, Vitamin C,100
+Drugstore XYZ,Penicilin, 20, pills
+Drugstore ABC,Aspirin,60
+Pharma X,Montelukast,10
+Pharma at grocery,Amoxicillin,?
+Pharmacy 123,Cephalexin,100
+Pharmacy 123,Prednisolone Sodium Phosphate
+Pharma X,Nystatin,45
+Zauwa¿ b³edy: linijka 2 - dodatkowa kolumna, linijka 5 - znak zapytania w kolumnie z iloœci¹, linijka 7 - za ma³o kolumn
+
+Zaczynamy od nastêpuj¹cego skryptu - skopiuj go do swojego skryptu i nastêpnie przerabiaj krok po kroku:
+
+file_path = r'c:\temp\data_input\orders.csv'
+ 
+with open(file_path,"r") as file:
+ 
+    for line in file:
+ 
+        line = line.replace('\n','')
+        order = line.split(',')
+ 
+        # ADD YOUR CODE HERE
+ 
+print("Processing finished")
+Na pocz¹tku skryptu zaimportuj modu³ sys (jest potrzebny do ustalenia rodzaju b³êdu)
+
+W miejscu oznaczonym komentarzem:
+
+w zmiennej pharmacy_name zapisz zerowy element listy orders
+
+w zmiennej item zapisz pierwszy element listy orders
+
+w zmiennej amount zapisz wynik konwersji do typu int dla trzeciego elementu listy orders
+
+Wyœwietl komunikat 'Order from drugstore "%s", item "%s", amount %d' zastêpuj¹c pola na pharmacy_name, item i amount
+
+Uruchom skrypt - co powinno zakoñczyæ siê katastrof¹:
+
+Order from drugstore "Pharma A", item " Vitamin C", amount 100
+Order from drugstore "Drugstore XYZ", item "Penicilin", amount 20
+Order from drugstore "Drugstore ABC", item "Aspirin", amount 60
+Order from drugstore "Pharma X", item "Montelukast", amount 10
+Traceback (most recent call last):
+  File "C:/Users/rafal/AppData/Local/Programs/Python/Python35/orders_processing_error.py", line 25, in <module>
+    amount = int(order[2])
+ValueError: invalid literal for int() with base 10: '?'
+5. Dodaj instrukcjê try/except, która:
+
+obs³u¿y b³edy instrukcji opisanych w krokach 2-3
+
+w przypadku b³êdu wyœwietli linijkê, w której dosz³o do b³êdów oraz infromacje na temat samego b³edu
